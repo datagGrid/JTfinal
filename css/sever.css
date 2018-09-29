@@ -26,9 +26,6 @@
                line-height: 0.83rem;
                display: block;
 }
-.order-container .order-box ul li:nth-child(3){
-               border-bottom:0.02rem solid #36a8fe;
-}
 .order-containers{
                padding-left: 0.26rem;
                padding-right: 0.26rem;
@@ -123,6 +120,7 @@
                flex-direction: row-reverse;
 }
 .order-containers .order-topayfor{
+                color: #fff;
                border-radius: 0.5rem;
                width: 2.69rem;
                height: 0.6rem;

@@ -6,11 +6,16 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://at.alicdn.com/t/font_853283_zpr0b07cuf.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_853283_zpr0b07cuf.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_853283_7yc0ta0w8za.css">
     <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/rem.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/order.css">
+    <link rel="stylesheet" href="css/sever.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -18,22 +23,41 @@
         <div class="left">
             <i class="topleft iconfont icon-fanhui"></i>
             <!--基本都没有-->
-            <span class="small">关闭</span>
+          
         </div>
         <span class="centertext">订单</span>
         <!--基本也都没有-->
         <i class="topright iconfont icon-gengduo"></i>
     </header>
     <!-- 内容 -->
+    <div class="shade">
+            <div class="wrap">
+                <div class="icon1">
+                <img src="img/组1拷贝.png" alt="" />
+                <h3>商家入驻</h3>
+                </div>
+                <div class="icon2">
+                    <img src="img/组3.png" alt="" />
+                    <h3>水司入驻</h3>
+                </div>
+                <div class="clearfix">
+                    
+                </div>
+                <div class="closebtn">
+                    X
+                </div>
+            </div>
+            
+        </div>
     <div class="order">
         <div class="order-container">
             <div class="order-box">
                 <ul>
                     <li>全部</li>
-                    <li>待支付</li>
-                    <li>待服务</li>
-                    <li>待收货</li>
-                    <li>待评价</li>
+                    <li class="lei hos">待支付</li>
+                    <li class="lei">待服务</li>
+                    <li class="lei">待收货</li>
+                    <li class="lei">待评价</li>
                 </ul>
             </div>
         </div>
@@ -43,7 +67,7 @@
             <img src="img/order-shuilongtou.png" alt="">
             <div class="particulars">
                 <h3 class="order-E">潜水艇高端龙头</h3>
-                <span class="order-T"><img src="img/order-dian.png" alt="">ECC01-001Lw</span>
+                <span class="order-V"><img src="img/order-dian.png" alt="">ECC01-001Lw</span>
                 <p><img src="img/order-dian.png" alt="">商品规格潜水艇高端龙头</p>
                 <span class="order-price"><img src="img/order-dian.png" alt="">￥60.00</span>
             </div>
@@ -57,5 +81,120 @@
             <a href=""><div class="order-cancel">取消订单</div></a>
         </div>
     </div> 
+    <div class="order-containers" style="display: none">
+        <div class="shop">
+            <img src="img/order-chufangxiashui.png" alt="">
+            <div class="particulars">
+                <h3 class="order-E">厨房下水清洁疏通</h3>
+                <span class="order-jiedan">待接单</span>
+                <span class="order-T"><img src="img/order-dian.png" alt="">预约日期<p class="order-time">2018.05.28 14:00</p></span>
+                <span class="order-price"><img src="img/order-dian.png" alt="">￥60.00</span>
+
+            </div>
+        </div>
+        <div class="order-pay">
+            <img src="img/order-greendian.png" alt="">
+            实付款：￥60.00
+        </div>
+        <span class="order-cheng"><img src="img/order-dian.png" alt="">x</span>
+        <span class="order-peo">剩余款项由维修人员上门视具体情况报价</span>
+        <div class="order-ka">
+            <a href="project.html"><div class="order-topayfor">去支付服务费</div></a>
+            <a href=""><div class="order-cancel">取消预约</div></a>
+        </div>
+    </div>
+    <div class="order-containers" style="display: none">
+        <div class="shop">
+            <img src="img/order-shuilongtou.png" alt="">
+            <div class="particulars">
+                <h3 class="order-E">潜水艇高端龙头</h3>
+                <span class="order-V"><img src="img/order-dian.png" alt="">ECC01-001Lw</span>
+                <p><img src="img/order-dian.png" alt="">商品规格潜水艇高端龙头</p>
+                <span class="order-price"><img src="img/order-dian.png" alt="">￥60.00</span>
+            </div>
+        </div>
+        <div class="order-pay">
+            <img src="img/order-greendian.png" alt="">
+            实付款：￥60.00
+        </div>
+        <span class="order-cheng"><img src="img/order-dian.png" alt="">x1</span>
+        <div class="order-ka">
+            <a href=""><div class="order-topayfor">去退款</div></a>
+            <a href=""><div class="order-cancel">确认收货</div></a>
+        </div>
+    </div> 
+    <div class="order-containers" style="display: none">
+        <div class="shop">
+            <img src="img/order-shuilongtou.png" alt="">
+            <div class="particulars">
+                <h3 class="order-E">潜水艇高端龙头</h3>
+                <span class="order-T"><img src="img/order-dian.png" alt="">ECC01-001Lw</span>
+                <p><img src="img/order-dian.png" alt="">商品规格潜水艇高端龙头</p>
+                <span class="order-price"><img src="img/order-dian.png" alt="">￥60.00</span>
+            </div>
+        </div>
+        <div class="order-pay">
+            <img src="img/order-greendian.png" alt="">
+            实付款：￥60.00
+        </div>
+        <span class="order-cheng"><img src="img/order-dian.png" alt="">x1</span>
+        <div class="order-ka">
+            <a href="order_assess.html"><div class="order-topayfor">去评价</div></a>
+            <a href="refund.html"><div class="order-cancel">去退款</div></a>
+        </div>
+    </div>  
+    <footer>
+			<ul>
+				<li>
+					<a href="index.html">
+						<i class="iconfont icon-xingzhuanggongnengtubiao-"></i>
+						<h2>首页</h2>
+					</a>
+					
+				</li>
+				<li>
+					<a href="shop.html">
+						<i class="iconfont icon-gouwudai"></i>
+						<h2>商城</h2>
+					</a>
+					
+				</li>
+				<li>
+					<a href="javascript:;" class="room">
+						<i class="iconfont icon-wei-"></i>
+						<h2>入驻</h2>
+					</a>
+					
+				</li>
+				<li>
+					<a href="order.html"  class="active">
+						<i class="iconfont icon-dingdan"></i>	
+						<h2>订单</h2>
+					</a>
+					
+				</li>
+				<li>
+					<a href="person.html">
+						<i class="iconfont icon-sousuo1"></i>
+						<h2>我的</h2>
+					</a>
+					
+				</li>
+			</ul>
+		</footer>
 </body>
 </html>
+<script>
+$(".lei").click(
+    function(){
+    let index=$(this).index();
+    $(".lei").removeClass("hos");
+    $(this).addClass("hos");
+    $(".order-containers").css("display","none").eq(index-1).css("display","block");
+    console.log(index);
+    console.log($(".lei"));
+    }
+)
+
+
+</script>

@@ -111,7 +111,113 @@
 }
 .order-containers .order-fuwu ul li .dots{
                margin-right: 0.21rem;
+               margin-left: 0.29rem;
 }
 .order-containers .order-fuwu ul li .order-youdo{
                margin-left: 0.23rem;
+}
+.order-containers .order-team{
+               width: 7.02rem;
+               height: 1.77rem;
+               border-radius: 0.1rem;
+               box-shadow: 0.05rem 0.05rem  0.21rem rgba(223, 223, 223, 0.43);
+               margin-top:0.25rem;
+}
+.order-containers .order-team .touxiang{
+               width: 0.8rem;
+               height: 0.8rem;
+               box-shadow: 0.05rem 0.05rem  0.21rem rgba(223, 223, 223, 0.43);
+               margin-top:0.02rem;
+               /* margin-left: 0.32rem; */
+}
+.order-containers .order-team .major{
+                
+                height: 0.87rem;
+                font-size: 0.24rem;
+                color:#7ec5fc;
+                margin-left: 0.22rem;
+                font-weight: bold;
+                border-bottom: 0.02rem solid #fafafa; 
+                line-height: 0.87rem;
+                position: relative; 
+}
+.order-containers .order-team .tousu{
+               
+                height: 0.87rem;
+                font-size: 0.24rem;
+                color: #999999;
+                font-weight: bold;
+                margin-left: 0.24rem;
+                border-bottom: 0.02rem solid #fafafa;
+                line-height: 0.87rem;
+}
+.order-containers .order-team .xiaodian{
+                margin-left: 0.29rem;
+                margin-right: 0.21rem;
+}
+.order-containers .order-team .major .weixin{
+                width: 0.55rem;
+                height: 0.55rem;
+                position: absolute;
+                right: 1.1rem;
+                top: 0.21rem;
+}
+.order-containers .order-team .major .dianhua{
+                width: 0.55rem;
+                height: 0.55rem;
+                position: absolute;
+                right: 0.27rem;
+                top: 0.21rem;
+}
+.order-containers .order-team .serial{
+        width: 7.02rem;
+        height: 0.87rem;
+        font-size: 0.24rem;
+        color:#999999;
+        margin-left: 0.22rem;
+        font-weight: bold;
+        border-bottom: 0.02rem solid #fafafa; 
+        line-height: 0.87rem;
+}
+.order-containers .TT{
+        position: relative;
+}
+.order-containers .hao{
+        position: absolute;
+        top: 0.35rem;
+        right: 0.5rem;
+        font-weight: bold;
+        color: #999999;
+}
+.order-containers .shijian{
+        position: absolute;
+        top:1.13rem;
+        right: 0.5rem;
+        font-weight: bold;
+        color: #999999;
+}
+.order-containers .order-cancel{
+        background:#e7f6ff;
+        border-radius: 0.5rem;
+        width: 1.96rem;
+        height: 0.6rem;
+        text-align: center;
+        line-height: 0.6rem;
+        color: #3bacfe;
+}
+.order-containers .order-ka{
+        margin-top:0.42rem;
+        display: flex;
+        flex-direction: row-reverse;
+}
+.order-containers .order-topayfor{
+        color: #fff;
+        border-radius: 0.5rem;
+        width: 2.69rem;
+        height: 0.6rem;
+        text-align: center;
+        line-height: 0.6rem;
+        background: linear-gradient(to right, #37e071, #32d699);
+        margin-left: 0.3rem;
+        box-shadow: 0.01rem 0.01rem 0.21rem  0.01rem rgba(55, 223, 116, 1);
 }

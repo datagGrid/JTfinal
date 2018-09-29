@@ -124,26 +124,27 @@ main .text h4{
     margin-left: 0.1rem;
     font-weight: bold;
 }
-main .blue{
-    width: 7rem;
+textarea{
+    width: 100%;
     height: 2.94rem;
-    border-radius: 0.08rem;
-    background: #f1faff;
-    display: flex;
-    flex-direction: column;
-    margin-top: 0.28rem;
-    overflow: hidden;
-}
-main .ms{
-    color: #b9c9d2;
+    background: rgba(231,246,255,0.5);
+    margin-top: 0.25rem;
     font-size: 0.24rem;
-    margin-top: 0.32rem;
-    margin-left: 0.3rem;
+    color: #b9c9d2;
+    padding: 0.25rem;
+    border-radius: 0.08rem;
+    position: relative;
 }
-main .blue img{
+textarea::-webkit-input-placeholder{
+    color: #b9c9d2;
+    font-size: 0.22rem;
+}
+img.xiangj{
     width: 1.41rem;
     height: 1.41rem;
     margin-top: 0.8rem;
+    position: absolute;
+    bottom: 4rem;
 }
 main .time{
     display: flex;
@@ -162,6 +163,9 @@ main .time .chang{
 main .time .yue{
     margin-left: 0.1rem;
 }
+main .time .t{
+    margin-right: 2.6rem;
+}
 main .time .he{
     display: flex;
     flex-direction: row;
@@ -169,11 +173,14 @@ main .time .he{
     align-items: center;
     color: #36a8fe;
 }
-main .time .he .tui{
-    margin-left: 2.6rem;
+main .time .he .shij{
+    margin-left: 0.1rem;
+}
+main .time .he .yr{
+    margin-left: 0.1rem;
 }
 main .time .he i{
-    margin-left: 0.2rem;
+    margin-left: 0.7rem;
 }
 footer{
     width: 100%;
@@ -207,6 +214,9 @@ footer .heji span{
 footer .heji p{
     font-size: 0.36rem;
     color: rgb(59,172,254);
+}
+footer a{
+    color: #fff;
 }
 footer .tijiao{
     float: right;

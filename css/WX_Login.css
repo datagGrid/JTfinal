@@ -128,8 +128,12 @@ main .anniubox .true{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #3bacfe;
     box-shadow: 0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
-    background: #3bacfe;
+    background: #e7f6ff;
     border-radius: 0.26rem;
+}
+main .anniubox .blue{
+    background: #3bacfe;
+    color: #fff;
 }

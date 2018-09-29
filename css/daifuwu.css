@@ -1,0 +1,117 @@
+.order{
+        border-bottom: 0.02rem solid #a2deff; 
+        background: linear-gradient(to right, #39a9ff, #3bacfe); 
+}
+
+
+.order-container{
+               padding-left: 0.26rem;
+               padding-right: 0.26rem;
+               box-shadow: 0 0.1rem 0.1rem rgba(41, 167, 255, 0.13) inset;
+               
+}
+.order-container .order-box{
+               /* width: 7.51rem; */
+               height: 0.83rem; 
+               display: flex;
+               flex-direction: row;
+               justify-content: space-between;     
+}
+.order-container .order-box .order-sever{
+               font-size: 0.38rem;
+               font-weight: bold;
+               color: #fff;
+               text-align: center;
+               line-height: 0.83rem;
+}
+.order-container .order-box .tail{
+               color: #bae6ff;
+               font-size: 0.26rem;
+               text-align: center;
+               line-height: 0.83rem;
+}
+.order-container .order-box .tail .order-right{
+               margin-left: 0.3rem;
+}
+.order-containers{
+               padding-left: 0.26rem;
+               padding-right: 0.26rem;
+}
+.order-containers .shop{
+               display: flex;
+               flex-direction: row;
+               position: relative;
+}
+.order-containers .shop img{
+               width: 1.74rem;
+               height: 1.74rem;
+               margin-top: 0.51rem;
+               border-radius: 0.1rem;
+               box-shadow: 0.05rem 0.05rem  0.21rem rgba(223, 223, 223, 0.43);
+}
+.order-containers .particulars{
+               margin-top: 0.51rem;
+               margin-left: 0.24rem;
+}
+.order-containers .particulars img{
+               width: 0.05rem;
+               height: 0.05rem;
+               margin-top:0.15rem;
+}
+.order-containers .particulars .order-E{
+               color: #9a9d9d;
+               font-weight: bold;
+               font-size: 0.3rem;
+}
+.order-containers .particulars .order-jiedan{
+               color: #43c93e;
+               position:absolute;
+               top:0.51rem;
+               right:0;
+}
+.order-containers .particulars .order-T{
+               display: flex;
+               flex-direction: row;
+               margin-top: 0.23rem;
+               color: #d1d3d4;
+               font-weight: bold;
+               font-size: 0.26rem;
+}
+.order-containers .particulars .order-T .order-time{
+               color: #36a8fe;
+               margin-left: 0.2rem;
+}
+.order-containers .particulars p{
+               color: #c7caca;
+               font-size:0.22rem;
+}
+.order-containers .particulars .order-price{
+               color: #8a8c8d;
+               font-size: 0.26rem;
+               margin-top: 0.36rem;
+               display: block;
+               font-weight: bold;
+}
+.order-containers .particulars .order-price img{
+               margin: 0;
+}
+.order-containers .order-fuwu{
+               width: 7.02rem;
+               height: 3.91rem;
+               border-radius: 0.1rem;
+               box-shadow: 0.05rem 0.05rem  0.21rem rgba(223, 223, 223, 0.43);
+               margin-top:0.75rem;
+}
+.order-containers .order-fuwu ul li{
+               color: #8a8c8d;
+               height: 0.88rem;
+               font-size: 0.24rem;
+               line-height: 0.88rem;
+               border-bottom: 0.02rem solid #fafafa;
+}
+.order-containers .order-fuwu ul li .dots{
+               margin-right: 0.21rem;
+}
+.order-containers .order-fuwu ul li .order-youdo{
+               margin-left: 0.23rem;
+}

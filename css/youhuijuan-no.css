@@ -1,0 +1,155 @@
+body{
+    background: #fbfeff;
+    font-family: "苹方";
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 0.84rem;
+    background: white;
+    line-height: 0.84rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+    box-shadow:0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
+}
+header .left{
+    position: absolute;
+    left: 0.24rem;
+}
+header .iconfont{
+    font-size: 0.4rem;
+    color: #4ebbfe;
+}
+header .topleft{
+    float: left;
+}
+header .small{
+    float: left;
+    font-size: 0.22rem;
+}
+header .centertext{
+
+}
+header .topright{
+    position: absolute;
+    right: 0.24rem;
+}
+section{
+  width: 100%;
+  height: 1.34rem;
+  padding: 0 1.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+section .list{
+    width: 1.36rem;
+    height: 0.55rem;
+    background: #e7f6ff;
+    color: #51b5fe;
+    text-align: center;
+    line-height: 0.55rem;
+    border-radius: 0.4rem;
+}
+section .list.active{
+    color:#fff;
+    background: #3bacfe;
+}
+.card{
+    height: 6.15rem;
+    width: 100%;
+    padding: 0 0.3rem;
+    display: none;
+    position: absolute;
+    top:2.18rem;
+}
+.card ul{
+    width: 100%;
+    height: 1.86rem;
+    background: linear-gradient(to right,#27d29b,#33e171);
+    border-radius: 0.2rem;
+    padding:0 0.2rem;
+    padding-top: 0.4rem;
+    display: flex;
+    flex-direction: row;
+}
+.card ul .li1{
+    width: 5rem;
+    height: 100%;
+    overflow: hidden;
+}
+.card ul .li2{
+    width: calc(100% - 5rem);
+    height: 100%;
+}
+.card ul .li1 p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(255,255,255,0.5);
+}
+.card ul .li1 p .mif{
+    width: 1.45rem;
+    height: 0.66rem;
+}
+.card ul .li1 p .dian{
+    margin-right: 0.1rem;
+}
+.card ul .li2 p{
+    font-size: 0.3rem;
+    color: #fff;
+    text-align: center;
+}
+.card ul .li2 p span{
+    font-size:0.6rem;
+    font-weight: bold;
+}
+.card ul .li2 .shiyong{
+    width: 1.5rem;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    border-radius: 0.2rem;
+    background: #fff;
+    font-size: 0.26rem;
+    color:#30dd7b;
+    margin-left: 0.15rem;
+}
+.card ul .li1 span {
+    color: #fff;
+    font-weight: 600;
+    margin-left: 0.2rem;
+}
+.card ul .li1 span a{
+    color: rgba(255,255,255,0.5);
+}
+.card .ul2,.ul3{
+    margin-top:0.3rem;
+}
+.card .ul2{
+    background: linear-gradient(to right,#34a3f8,#3fdef1);  
+}
+.card .ul3{
+    background: linear-gradient(to right,#ffb637,#ffde47);   
+}
+.card .ul2 .li2 .shiyong{
+    color: #3bacfe;
+}
+.card .ul3 .li2 .shiyong{
+    color: #ffb637;
+}
+.no-none{
+    display: block;
+}
+.card.card-2 ul{
+    background: #d7e0e3;
+}
+.card.card-2 ul .li2 .shiyong{
+    color:  #d7e0e3;
+}
+.card.card-2 .ul2{
+    margin-top:0.3rem;
+}

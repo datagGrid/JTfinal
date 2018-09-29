@@ -1,0 +1,268 @@
+i{
+    font-style: normal;
+}
+main{
+    padding: 0 0.24rem;
+}
+main .goods{
+    width: 100%;
+    height: 6.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .goods img{
+    width: 3.01rem;
+    height: 3.62rem;
+
+}
+/*商品详情*/
+main .details{
+    padding-bottom: 0.24rem;
+    border-bottom: rgba(0,0,0,0.04) 0.02rem solid;
+}
+main .details h2{
+    font-size: 0.3rem;
+    color: black;
+    line-height: 0.6rem;
+}
+main .details p{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+}
+main .details .price{
+    margin-top: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+main .details .left{
+    display: flex;
+}
+main .details .right{
+    display: flex;
+    align-items: center;
+}
+main .details .price .left p{
+    color: #fbb548;
+    font-size: 0.26rem;
+
+}
+main .details .price .left .price_box{
+    height: 0.36rem;
+    line-height: 0.36rem;
+    font-size: 0.2rem;
+    text-align: center;
+    border-radius: 0.18rem;
+    padding: 0 0.24rem;
+    margin-left: 0.3rem;
+}
+main .details .price .left .deposit{
+    color: #36a8fe;
+    background: rgba(65,178,252,0.1);
+}
+main .details .price .left .service{
+    color: #36d681;
+    background: rgba(54,214,129,0.1);
+}
+main .details .price .right .round{
+    width: 0.05rem;
+    height: 0.05rem;
+    margin-right: 0.1rem;
+    border-radius: 50%;
+    background: #36d681;
+    box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(54,214,129,0.43);
+
+}
+main .details .price .right p{
+    color: rgba(0,0,0,0.3);
+    font-size: 0.2rem;
+}
+main .details .price .right p span{
+    color: #36a8fe;
+    font-size: 0.2rem;
+}
+/*领券*/
+main .get{
+    display: flex;
+    height: 0.88rem;
+    align-items: center;
+    border-bottom: rgba(0,0,0,0.04) 0.02rem solid;
+
+}
+main .get img{
+    width: 0.57rem;
+    height: 0.41rem;
+    margin-top: 0.1rem;
+}
+main .get span{
+    margin-left: 0.1rem;
+    font-size: 0.24rem;
+    color: #ff844e;
+}
+main .get .get_box{
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    color: #fff;
+    padding:0 0.24rem;
+    border-radius: 0.2rem;
+    margin-left: 0.2rem;
+    background: linear-gradient(to right,#ffca3b,#ff933b);
+    box-shadow: 0 0 0.16rem 0.04rem rgba(255,142,81,0.3);
+}
+/*无额外收费*/
+main .charge{
+    display: flex;
+    height: 0.88rem;
+    align-items: center;
+    border-bottom: rgba(0,0,0,0.04) 0.02rem solid;
+}
+main .charge .added{
+    display: flex;
+    align-items: center;
+    margin-right: 0.3rem;
+}
+main .charge .added .round{
+    width: 0.05rem;
+    height: 0.05rem;
+    margin-right: 0.1rem;
+    border-radius: 50%;
+    background: #36d681;
+    box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(54,214,129,0.43);
+}
+main .charge .added span{
+    color: #41b2fc;
+    font-size: 0.24rem;
+}
+/*用户评价*/
+.rate{
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.rate .user_left{
+    display: flex;
+    align-items: center;
+}
+.rate .user_left .roundW{
+    width: 0.1rem;
+    height: 0.05rem;
+    margin-right: 0.1rem;
+    border-radius: 0.025rem;
+    background: #44b5ff;
+    box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(68,181,255,0.43);
+}
+.rate .user_left .i,.spans{
+    font-size: 0.32rem;
+    color: #41b2fc;
+    font-weight: bold;
+}
+main .rate .user_left span{
+    color: #000;
+}
+.rate .all span,.icon-youjiantou{
+    font-weight: normal;
+    color: #41b2fc;
+    font-size: 0.22rem;
+}
+.rate .all .qian{
+    margin-left: -0.14rem;
+    color: rgba(54,168,254,0.5);
+}
+/*用户评价内容*/
+.user{
+    padding:0 0.24rem 0.55rem 0.24rem;
+    border-bottom: rgba(0,0,0,0.04) 0.02rem solid;
+}
+.user .user_fir{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user .user_fir .left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user .user_fir .left img{
+    width: 1.21rem;
+    height: 1.21rem;
+}
+.user .user_fir .left span{
+    color: rgba(0,0,0,0.3);
+    font-size: 0.2rem;
+}
+.user .user_fir .left .star{
+    margin-left: 0.48rem;
+}
+.user .user_fir .left .star i.active{
+    font-size: 0.2rem;
+    color: #41b2fc;
+}
+.user .user_fir .left .star i{
+    font-size: 0.2rem;
+    color: rgba(54,168,254,0.5);
+
+}
+.user .user_fir .time{
+    font-size: 0.22rem;
+    color: rgba(54,168,254,0.5);
+
+}
+.user .user_text{
+    margin-top: -0.2rem;
+    margin-left:1.18rem ;
+}
+.user .user_text p{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.6);
+}
+.user .user_text span{
+    margin-right: 0.1rem;
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+}
+.user .user_text img{
+    margin-top: 0.3rem;
+}
+
+/*商品详情*/
+.wares{
+    margin-top: 0;
+    padding:0 0.24rem;
+}
+.wares .user_left{
+    width: 100%;
+    height: 0.88rem;
+    border-bottom: rgba(0,0,0,0.04) 0.02rem solid;
+
+}
+.wares .user_left .wares_i{
+    color: #36d681;
+}
+.wares .user_left .wares_sp{
+    color: #000;
+}
+.wares .user_left .blue{
+    background: #36d681;
+    box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(54,214,129,0.43);
+}
+/*相似推荐*/
+.same{
+    border:0;
+}
+/*商品列表*/
+.recom{
+    padding: 0 0.24rem;
+}
+.recom ul{
+    display: flex;
+
+    justify-content: space-between;
+}
+.recom ul li{
+    width: 30%;
+    height: 2rem;
+
+    background: #ff6666;
+}

@@ -1,0 +1,207 @@
+header{
+    width: 100%;
+    height: 0.84rem;
+    background: white;
+    line-height: 0.84rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
+}
+header .left{
+    position: absolute;
+    left: 0.24rem;
+}
+header .iconfont{
+    font-size: 0.4rem;
+}
+header a{
+    text-decoration: none;
+    color: #3bacfe;
+}
+header .topleft{
+    float: left;
+}
+header .small{
+    float: left;
+    font-size: 0.22rem;
+}
+header .centertext{
+
+}
+header .topright{
+    position: absolute;
+    right: 0.24rem;
+}
+.picture{
+    width: 100%;
+    height: 6rem;
+    /*padding: 2.2rem;*/
+    /*background: red;*/
+    padding-bottom: 1.5rem;
+    padding-top: 1.4rem;
+    padding-left: 2rem;
+}
+.picture img{
+    width: 3rem;
+    height: 3.6rem;
+}
+h3{
+    margin-left: 0.24rem;
+    margin-top: 0.2rem;
+    font-size: 0.3rem;
+    /*color: #646666;*/
+}
+p{
+    margin-left: 0.24rem;
+    margin-top: 0.1rem;
+    font-size: 0.22rem;
+    color: #afb1b2;
+    margin-right: 0.24rem;
+}
+h4{
+    margin-left: 0.24rem;
+    color: #fbb548;
+    margin-top: 0.15rem;
+    font-size: 0.26rem;
+    float: left;
+}
+del{
+    /*display: block;*/
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.15rem;
+    color: #afb1b2;
+}
+.dian{
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #36d681;
+    float: right;
+    border-radius: 50%;
+    margin-top: 0.3rem;
+    margin-right: 1.5rem;
+}
+h6{
+    margin-top: 0.2rem;
+    float: right;
+    margin-right: -0.5rem;
+}
+i{
+    font-style: normal;
+    float: right;
+    margin-top: 0.18rem;
+    font-size: 0.24rem;
+    color: #3bacfe;
+    margin-right: -1.1rem;
+}
+.quan{
+    width: calc(100% - 0.48rem);
+    height: 0.8rem;
+    border-top: 0.01rem solid #f4f4f4;
+    border-bottom: 0.01rem solid #f4f4f4;
+    margin: 0.7rem auto 0.2rem;
+    overflow: hidden;
+}
+.quan img{
+    margin-left: -0.1rem;
+    margin-top: 0.1rem;
+    float: left;
+}
+.quan h2{
+    float: left;
+    margin-top: 0.1rem;
+    color: #ff844e;
+}
+.quan .jian{
+    width: 1.84rem;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    float: left;
+    margin-top: 0.15rem;
+    border-radius: 0.2rem;
+    color: white;
+    background: linear-gradient(to right,#ff953b,#ffc73b);
+    margin-left: 0.1rem;
+}
+.finally{
+    width: 100%;
+    height: 0.6rem;
+    /*background: red;*/
+    padding-top: 0.3rem;
+    float: left;
+    margin-bottom: 0.5rem;
+}
+.finally .dia{
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #36d681;
+    border-radius: 50%;
+    margin-left: 0.24rem;
+    float: left;
+}
+.finally .wai{
+    color: #3bacfe;
+    margin-top: -0.15rem;
+    margin-left: 0.2rem;
+    float: left;
+    font-size: 0.24rem;
+}
+.last{
+    width: 100%;
+    height: 1.1rem;
+    background: #f0fafe;
+    margin-top: 1.6rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.last .pic{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 0.3rem;
+    margin-top: 0.2rem;
+}
+.last .pu{
+    margin-left: 0.3rem;
+    color: #3bacfe;
+}
+.last img{
+   width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 1.6rem;
+    margin-top: -1.7rem;
+}
+.last .xi{
+    margin-left: 1.4rem;
+    margin-top: -0.63rem;
+    color: #36d681;
+}
+.last .jia{
+    width: 1.96rem;
+    height: 0.6rem;
+    background: linear-gradient(to right,#37df72,#32d698);
+    border-radius: 0.3rem;
+    color: white;
+    text-align: center;
+    line-height: 0.6rem;
+    margin-left: 3rem;
+    margin-top: -0.8rem;
+    font-size: 0.2rem;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(55,223,116,0.13);
+}
+.last .dan{
+    width: 1.96rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    color: white;
+    text-align: center;
+    line-height: 0.6rem;
+    margin-left: 5.2rem;
+    margin-top: -0.6rem;
+    font-size: 0.2rem;
+    background: linear-gradient(to right,#3bacfe,#3bacfe);
+    box-shadow: 0 0 0.8rem 0.01rem rgba(59,172,254,0.3);
+}

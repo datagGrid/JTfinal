@@ -1,0 +1,281 @@
+header{
+    width: 100%;
+    height: 0.84rem;
+    background: white;
+    line-height: 0.84rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+
+}
+header .left{
+    position: absolute;
+    left: 0.24rem;
+}
+header .iconfont{
+    font-size: 0.4rem;
+}
+header a{
+    text-decoration: none;
+    color: #3bacfe;
+}
+header .topleft{
+    float: left;
+}
+header .small{
+    float: left;
+    font-size: 0.22rem;
+}
+header .centertext{
+
+}
+header .topright{
+    position: absolute;
+    right: 0.24rem;
+}
+.middle{
+    width:100%;
+    height: 0.6rem;
+    /*background:red;*/
+    display: flex;
+    justify-content: center;
+}
+.middle input{
+    width: calc(100% - 0.48rem);
+    height: 100%;
+    border-radius: 0.3rem;
+    background: #f2faff;
+    padding-left: 0.2rem;
+    position: relative;
+}
+.middle .box{
+    width: 0.8rem;
+    height: 0.44rem;
+    background: #a4e0bd;
+    border-radius: 0.21rem;
+    position: absolute;
+    top: 0.93rem;
+    right: 0.32rem;
+}
+.middle .box img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 0.18rem;
+}
+.center{
+    width: 100%;
+    height: 1rem;
+    padding-top: 0.25rem;
+}
+.center .such{
+    width: 1.33rem;
+    height: 0.52rem;
+    background: #e7f6ff;
+    border-radius: 0.26rem;
+    text-align: center;
+    line-height: 0.52rem;
+    margin-left: 1.5rem;
+    color: #3bacfe;
+}
+.center .shop{
+    width: 1.33rem;
+    height: 0.52rem;
+    background: #e7f6ff;
+    border-radius: 0.26rem;
+    text-align: center;
+    line-height: 0.52rem;
+    margin-left: 3.07rem;
+    color: #3bacfe;
+    margin-top: -0.5rem;
+}
+.center .yu{
+    width: 1.33rem;
+    height: 0.52rem;
+    background: #3bacfe;
+    border-radius: 0.26rem;
+    text-align: center;
+    line-height: 0.52rem;
+    margin-left: 4.6rem;
+    color: white;
+    margin-top: -0.5rem;
+    margin-bottom: 0.2rem;
+}
+.pic{
+    width: calc(100% - 0.48rem);
+    height: 2.7rem;
+    border-radius: 0.2rem;
+    margin-left: 0.24rem;
+    margin-bottom: 0.2rem;
+}
+.geng{
+    width: 100%;
+    height: 0.6rem;
+    padding-top: 0.3rem;
+}
+.geng .dian{
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #34da87;
+    border-radius: 0.2rem;
+    margin-left: 0.24rem;
+}
+.geng .ha{
+    margin-left: 0.45rem;
+    /*font-size: ;*/
+    margin-top: -0.25rem;
+}
+.geng .lv{
+    margin-left: 1.1rem;
+    margin-top: -0.36rem;
+    color: #79e3aa;
+}
+.geng a{
+    display: block;
+    text-decoration: none;
+    color: #3bacfe;
+    margin-top: -0.38rem;
+    float: right;
+    margin-right: 0.24rem;
+}
+.bbox ul li{
+    width: 3.2rem;
+    height:3.9rem;
+    position: relative;
+    margin-left: 0.24rem;
+    float: left;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+.bbox ul li:nth-child(2){
+    margin-left: 0.55rem;
+}
+.bbox ul li:nth-child(4){
+    margin-left: 0.55rem;
+}
+.bbox ul li .pic{
+    display: flex;
+    justify-content: center;
+}
+.bbox ul li .pic img{
+    width: 1.53rem;
+    height: 1.61rem;
+    display: block;
+    margin-top: 0.16rem;
+    margin-bottom: 0.36rem;
+}
+.bbox ul li .price,.sale{
+    display: flex;
+    justify-content: space-between;
+}
+.bbox ul li .price p{
+    font-size: 0.3rem;
+    color: rgba(0,0,0, 0.6);
+    font-weight: 500;
+}
+.bbox ul li .price span{
+    font-size: 0.3rem;
+    color: #fbb548;
+    font-weight: 500;
+}
+.bbox ul li .model{
+    font-size: 0.22rem;
+    color: rgba(0,0,0, 0.5);
+    font-weight: 600;
+    border-bottom: 0.04rem solid rgba(0,0,0, 0.04);
+    padding-bottom: 0.12rem;
+    margin-bottom: 0.12rem;
+}
+.bbox ul li .sale .left{
+    display: flex;
+    align-items: center;
+}
+.bbox ul li .sale .left .dot{
+    width:0.05rem;
+    height: 0.05rem;
+    border-radius: 0.025rem;
+    background: #44b5ff;
+    box-shadow: 0  0.04rem  0.2rem 0.03rem rgba(59,172,254,0.43);
+}
+.bbox ul li .sale .left p{
+    font-size: 0.22rem;
+    color: rgba(0,0,0, 0.3);
+    font-weight: 600;
+    padding: 0 0.11rem;
+}
+.bbox ul li .sale .left span{
+    font-size: 0.26rem;
+    color: #36a8fe;
+    font-weight: 600;
+}
+.bbox ul li .sale .left .bai{
+    font-size: 0.26rem;
+    color: #b9e1ff;
+}
+.bbox ul li .foot{
+    display: flex;
+    margin-top: 0.16rem;
+}
+.bbox ul li .foot .box{
+    width:1.21rem;
+    height: 0.35rem;
+    font-size: 0.2rem;
+    color: #36a8fe;
+    line-height: 0.35rem;
+    text-align: center;
+    background: rgba(59,171,255,0.1);
+    border-radius: 0.175rem;
+    margin-right: 0.09rem;
+}
+.bbox ul li .number{
+    width: 0.54rem;
+    height: 0.3rem;
+    font-size: 0.2rem;
+    color: #fff;
+    line-height: 0.3rem;
+    text-align: center;
+    background: linear-gradient(to right,#37e06f,#32d69a);
+    box-shadow: 0  0.02rem  0.2rem 0.04rem rgba(55,223,116,0.75);
+    border-radius: 0.3rem;
+    position: absolute;
+    top:0;
+    right:0;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 1rem;
+    background: #f8fcff;
+}
+
+footer ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer ul li img{
+    width: 0.35rem;
+    height: 0.35rem;
+    margin-left: 0.05rem;
+}
+footer ul li i{
+    margin-left: 0.06rem;
+    color: #9ddcff;
+    display: block;
+    width: 0.42rem;
+    height: 0.44rem;
+}
+footer ul li h2{
+    color: #b3e1ff;
+    font-size: 0.24rem;
+}
+

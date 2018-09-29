@@ -1,0 +1,140 @@
+header{
+    width: 100%;
+    background: white;
+    line-height: 0.84rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+    padding-bottom: 0.06rem;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(0,0,0,0.1);
+}
+header .left{
+    position: absolute;
+    left: 0.24rem;
+}
+header .iconfont{
+	color: #4ebbfe;
+    font-size: 0.4rem;
+}
+header .topleft{
+    float: left;
+}
+header .small{
+    float: left;
+    font-size: 0.22rem;
+}
+header .centertext{
+
+}
+header .topright{
+    position: absolute;
+    right: 0.24rem;
+}
+
+
+.price_list{
+	width: 100%;
+	height: 3.26rem;
+	padding:0.3rem 0.22rem;
+}
+ul{
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	flex-wrap: wrap;
+}
+
+li{
+	cursor: pointer;
+	border-radius: 0.1rem;
+	background: #f1faff;
+	text-align: center;
+	width: 30%;
+	height: 40%;
+	position: relative;
+	color: #3bacfe;
+}
+
+li h3{
+	margin-top: 0.1rem;
+	font-size: 0.3rem;
+}
+li h3 span{
+	font-weight: bold;
+}
+li h4 b{
+	font-size: 0.28rem;
+}
+li i{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url(../img/huangguan.png) no-repeat center center;
+	background-size: contain;
+}
+li em{
+	font-size: 0.2rem;
+	font-style: normal;
+	width: 1.2rem;
+	height: 0.3rem;
+	position: absolute;
+	bottom: -0.34rem;
+	left: 0.42rem;
+}
+.hr{
+	padding:0 0.24rem;
+	margin-top: 0.5rem;
+}
+hr{
+	width: 100%;
+	height: 0.02rem;
+	background: #f1f4f5;
+}
+
+.search{
+	width: 100%;
+	padding: 0 0.24rem;
+}
+.search input{
+	margin-right: 0.2rem;
+	padding-left: 0.26rem;
+	border-radius: 0.1rem;
+	border: 1px solid #def0fc;
+	width: 4.74rem;
+	height: 0.76rem;
+	background: #f1faff;
+}
+.search input::-webkit-input-placeholder{
+	color: #97c6e9;
+	font-size: 0.24rem;
+}
+.sub{
+	box-shadow: 0.02rem 0.02rem 0.2rem 0.06rem #d5f8e4;
+	margin: 0 auto;
+	width: 1.96rem;
+	height: 0.6rem;
+	background: linear-grain;
+	margin-top: 0.74rem;
+	display: inline-block;
+	background: linear-gradient(to right,#37e071, #32d699); /* 标准的语法 */
+	border-radius: 0.3rem;
+	text-align: center;
+	line-height: 0.6rem;
+	
+	font-size: 0.2rem;
+}
+li.active{
+	background: #3bacfe;
+	color: #fff;
+}
+li.active em{
+	color: #3bacfe;
+}
+
+.sub a{
+	cursor: pointer;
+	color: #fff;
+}

@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_853283_lq7ahfhs4q.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/rem.css">
+    <link rel="stylesheet" href="css/refundbase.css">
+    <link rel="stylesheet" href="css/revise.css">
+    <link rel="stylesheet" href="css/rejected.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <biv class="left">
+        <i class="topleft iconfont icon-fanhui"></i>
+        <!--基本都没有-->
+        <!-- <span class="small">关闭</span> -->
+    </biv>
+    <span class="centertext">申请退款退货</span>
+    <!--基本也都没有-->
+    <!-- <i class="topright iconfont icon-gengduo"></i> -->
+</header>
+<!--商品的详情-->
+<main>
+    <div class="goods">
+        <div class="content">
+            <img src="img/refund.png" alt="">
+
+            <div class="text">
+                <h3>潜水艇高端龙头</h3>
+                <div class="model number">
+                    <div class="round blue"></div>
+                    <span>ECC01-001Lw</span>
+                </div>
+                <div class="model norms">
+                    <div class="round blue"></div>
+                    <span>商品规格潜水艇高端龙头</span>
+                </div>
+                <div class="model price">
+                    <div class="left">
+                        <div class="round blue"></div>
+                        <span>￥</span><h1>60.00</h1>
+
+                    </div>
+                    <div class="right">
+                        <div class="round green"></div>
+                        <h6>×</h6><h7>1</h7>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="actual">
+            <div class="round green"></div>
+            <h4>实付款： ￥</h4><span>60.00</span>
+        </div>
+    </div>
+
+</main>
+<div class="refund blue ">
+    <div class="only reason">
+        <div class="tui blue">
+            <div class="round blue"></div>
+            <h2>退款</h2><i>状态</i>
+        </div>
+        <div class="wrong" id="wrong">
+            <span>请选择</span>
+            <i class="footer iconfont icon-youjiantou"></i>
+        </div>
+
+    </div>
+
+</div>
+<!--退款原因-->
+<div class="refund blue ">
+    <div class="only reason">
+        <div class="tui blue">
+            <div class="round blue"></div>
+            <h2>退款</h2><i>原因</i>
+        </div>
+        <div class="wrong " id="wrong_rea">
+            <span>买错了</span>
+            <i class="footer iconfont icon-youjiantou"></i>
+        </div>
+
+    </div>
+
+</div>
+<!--退款金额-->
+<div class="refund blue sum">
+    <div class="only">
+        <div class="tui orange">
+            <div class="round orange"></div>
+            <h2>退款</h2><i>金额</i> <span>(已收到货，需要退换已收到的货物)</span>
+        </div>
+        <div class="money">
+            <span>￥</span><h1>60.00</h1>
+        </div>
+
+    </div>
+
+</div>
+<!--退款说明-->
+<div class="explain">
+    <textarea name="" id="" cols="30" rows="10" placeholder="退款说明"></textarea>
+</div>
+<!--上传凭证-->
+<div class="refund blue upload">
+    <div class="only">
+        <div class="tui green">
+            <div class="round green"></div>
+            <h2>上传</h2><i>凭证</i><span>(最多六张)</span>
+        </div>
+        <div class="pic">
+            <img src="img/camera.png" alt="" id="imagle">
+            <input type="file" style="display: none" id="file">
+        </div>
+
+    </div>
+
+
+</div>
+<div class="submit">
+    <button>提交</button>
+</div>
+
+
+<!--货物状态弹框-->
+<div class="type ser_type">
+    <div class="serve ">
+        <span>货物</span><i>状态</i>
+        <div class="close close_fir">×</div>
+    </div>
+    <div class="tui">
+        <div class="only">
+            <a href="javascript:;">
+                <div class="round blue"></div>
+                <h2>已收到货</h2>
+            </a>
+        </div>
+
+    </div>
+    <div class="tui">
+        <div class="only rejected">
+            <a href="javascript:;">
+                <div class="round blue"></div>
+                <h2>未收到货</h2>
+            </a>
+            <div class="select">
+                <div class="sel_fir">
+                    <div class="sel_sec"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="submit btn btn_fir">
+        <button>关闭</button>
+    </div>
+</div>
+<!--退款原因弹框-->
+<div class="type money_rea">
+    <div class="serve ">
+        <span>退款</span><i>原因</i>
+        <div class="close close_sec">×</div>
+    </div>
+    <div class="tui">
+        <div class="only">
+            <a href="javascript:;">
+                <div class="round blue"></div>
+                <h2>退运费</h2>
+            </a>
+        </div>
+
+    </div>
+    <div class="tui">
+        <div class="only ">
+            <a href="javascript:;">
+                <div class="round blue"></div>
+                <h2>大小/尺寸与商家描述不符</h2>
+            </a>
+            <div class="select">
+                <div class="sel_fir">
+                    <div class="sel_sec"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="tui">
+        <div class="only">
+            <a href="javascript:;">
+                <div class="round blue"></div>
+                <h2>颜色／款式／型号与商品描述不符</h2>
+            </a>
+        </div>
+
+    </div>
+    <div class="tui">
+        <div class="only">
+            <a href="javascript:;">
+                <div class="round blue"></div>
+                <h2>材质与商品描述不符</h2>
+            </a>
+        </div>
+
+    </div>
+    <div class="tui">
+        <div class="only">
+            <a href="javascript:;">
+                <div class="round blue"></div>
+                <h2>做工粗糙有瑕疵</h2>
+            </a>
+        </div>
+
+    </div>
+    <div class="tui">
+        <div class="only rejected">
+            <a href="javascript:;">
+                <div class="round blue"></div>
+                <h2>质量问题</h2>
+            </a>
+        </div>
+
+    </div>
+    <div class="submit btn btn_sec">
+        <button>关闭</button>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    $("#imagle").click(function () {
+        $("#file").click();
+    })
+
+    $("#wrong").click(function () {
+        $(".ser_type").slideDown("fast");
+        document.body.style.overflow="hidden";
+    })
+    $(".btn_fir").click(function () {
+        $(".ser_type").slideUp("fast");
+        document.body.style.overflow="auto";
+    })
+    $(".close_fir").click(function () {
+        $(".ser_type").slideUp("fast");
+        document.body.style.overflow="auto";
+    })
+    //退款原因弹框
+    $("#wrong_rea").click(function () {
+        $(".money_rea").slideDown("fast");
+        document.body.style.overflow="hidden";
+    })
+    $(".btn_sec").click(function () {
+        $(".money_rea").slideUp("fast");
+        document.body.style.overflow="auto";
+    })
+    $(".close_sec").click(function () {
+        $(".money_rea").slideUp("fast");
+        document.body.style.overflow="auto";
+    })
+</script>

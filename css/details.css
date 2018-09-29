@@ -1,0 +1,219 @@
+
+i{
+    font-style: normal;
+}
+main{
+    padding:0 0.24rem;
+}
+.title{
+    margin-top: 0.64rem;
+    text-align: center;
+    color: #4f5b64;
+    font-size: 0.3rem;
+    padding-bottom: 0.24rem;
+    border-bottom: rgba(0,0,0,0.04) 0.02rem solid;
+}
+main .time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.26rem;
+    margin-bottom: 0.9rem;
+}
+main .time .round{
+    margin:0 0.1rem;
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius: 0.025rem;
+    background: #ff6666;
+    box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(255,102,102,0.43);
+}
+main .time i{
+     font-size: 0.26rem;
+     color: #4f5b64;
+     font-weight: bold;
+ }
+main .time span{
+    font-size: 0.4rem;
+    color: #ff6666;
+    font-weight: bold;
+}
+main .text p{
+    color: rgba(0,0,0,0.5);
+    font-size: 0.26rem;
+    margin-bottom: 0.48rem;
+}
+main .operate{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 0.96rem;
+    border-bottom: rgba(0,0,0,0.04) 0.02rem solid;
+}
+main .operate .op_content{
+    display: flex;
+
+
+}
+main .operate .op_text{
+    width: 1.66rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.2rem;
+    color: #fff;
+    background: #3bacfe;
+    margin-left: 0.2rem;
+    box-shadow: 0 0.01rem 0.12rem 0.05rem rgba(59,172,254,0.43);
+
+}
+main .operate .cancel{
+    background: #e7f6ff;
+    color: #3bacfe;
+    box-shadow: 0 0.01rem 0.12rem 0.05rem rgba(59,172,254,0.2);
+
+}
+/*退款*/
+.refund{
+    padding:0 0.24rem;
+}
+.refund .only .tui{
+    display: flex;
+    align-items: center;
+}
+.refund .only .tui .round{
+    width: 0.1rem;
+    height: 0.05rem;
+    margin-right: 0.08rem;
+    border-radius: 0.025rem;
+}
+
+.refund .only .tui .round.green{
+    background: #36d681;
+    box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(54,214,129,0.43);
+}
+.refund .only{
+    width: 100%;
+    height: 1.06rem;
+
+    line-height: 1.06rem;
+}
+.refund .only .tui h2,i{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: black;
+}
+.refund .only .green i{
+    color: #36d681;
+}
+/*商品详情*/
+/*main{*/
+    /*padding:0.5rem 0.24rem 0 0.24rem;*/
+
+/*}*/
+main .goods{
+    margin-top: -0.1rem;
+    height: 3.52rem;
+    width:  100%;
+    border-bottom: rgba(0,0,0,0.04) 0.02rem solid;
+
+}
+main .goods .content{
+    display: flex;
+}
+
+main .goods img{
+    width: 2.61rem;
+    height: 2.61rem;
+    margin-top: -0.16rem;
+    margin-right: 0.24rem;
+    margin-left: -0.14rem;
+}
+main .goods .text{
+    width: calc(100% - 2.85rem);
+    height: 100%;
+}
+/*//潜水艇高端龙头*/
+main .goods .text h3{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.6);
+}
+/*型号*/
+main .goods .text .model{
+    display: flex;
+    align-items: center;
+    padding:0.06rem 0;
+}
+main .round{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    margin-right: 0.08rem;
+}
+main .round.blue{
+    background: #44b5ff;
+    box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(68,181,255,0.43);
+
+}
+main .round.green{
+    background: #36d681;
+    box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(54,214,129,0.43);
+
+}
+main .goods .text .number span{
+    font-size: 0.26rem;
+    color: #36a8fe;
+}
+main .goods .text .norms span{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+}
+/*价格*/
+main .goods .text .price{
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+main .goods .text .price span,h1{
+    font-size: 0.26rem;
+    color: #afb1b2;
+}
+/*数量*/
+
+main .goods .text .price .left,.right{
+    display: flex;
+    align-items: center;
+}
+main .goods .text .price .right h6,h7{
+    font-size: 0.24rem;
+    color: #afb1b2;
+}
+/*实际付款*/
+main .actual{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.24rem;
+    color: #fbb548;
+    padding:0.2rem 0;
+}
+/*联系卖家*/
+.submit{
+    width: 100%;
+    height: 1.08rem;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1faff;
+}
+button{
+    width: 4.54rem;
+    height: 0.6rem;
+    color: #fff;
+    font-size: 0.2rem;
+    border-radius: 0.3rem;
+    border:none;
+    background:linear-gradient(to right,#37e06f,#32d69a);
+    box-shadow: 0 0 0.2rem 0.04rem rgba(55,223,116,0.75);
+}

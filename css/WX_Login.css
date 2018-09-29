@@ -1,0 +1,135 @@
+header{
+    width: 100%;
+    height: 0.84rem;
+    background: white;
+    line-height: 0.84rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
+}
+header .left{
+    position: absolute;
+    left: 0.24rem;
+}
+header .iconfont{
+    font-size: 0.4rem;
+}
+header .topleft{
+    float: left;
+}
+header .small{
+    float: left;
+    font-size: 0.22rem;
+}
+header .centertext{
+    font-family: "苹方 粗体";
+}
+header .topright{
+    position: absolute;
+    right: 0.24rem;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+main .login{
+    height: 0.87rem;
+    width: 5.18rem;
+    font-size: 0.32rem;
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+    line-height: 0.87rem;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.05);
+    font-family: "苹方 粗体";
+    font-weight: bold;
+    margin: 0 auto;
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    right: 0;
+}
+main .tubiao{
+    position: absolute;
+    top: 3.98rem;
+    left: 0;
+    right: 0;
+}
+main .tubiao img{
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: 0 auto;
+    display: block;
+}
+main .qx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0,0,0,0.4);
+    font-size: 0.26rem;
+    position: absolute;
+    top: 5.2rem;
+    left: 0;
+    right: 0;
+    font-family: "苹方 粗体";
+}
+main .box{
+    height: 0.7rem;
+    width: 4.77rem;
+    color: rgba(0,0,0,0.3);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    top: 5.72rem;
+    left: 0;
+    right: 0;
+    border-top: 0.02rem solid rgba(0,0,0,0.05);
+    border-bottom: 0.01rem solid rgba(0,0,0,0.05);
+    font-family: "苹方 粗体";
+}
+main .box .small{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #36d681;
+    margin-right: 0.08rem;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(54,214,129,0.13);
+}
+main .anniubox{
+    width: 3.06rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.2rem;
+    margin: 0 auto;
+    position: absolute;
+    top: 6.8rem;
+    left: 0;
+    right: 0;
+    font-family: "苹方 粗体";
+}
+main .anniubox .false{
+    width: 1.33rem;
+    height: 0.52rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3bacfe;
+    background: #e7f6ff;
+    border-radius: 0.26rem;
+}
+main .anniubox .true{
+    width: 1.33rem;
+    height: 0.52rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
+    background: #3bacfe;
+    border-radius: 0.26rem;
+}

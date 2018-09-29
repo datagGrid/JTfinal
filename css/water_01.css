@@ -1,0 +1,255 @@
+header{
+    width: 100%;
+    height: 1.78rem;
+    background: white;
+    line-height: 0.84rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
+    z-index: 999;
+}
+.lo{
+    box-shadow: none;
+}
+header .left{
+    position: absolute;
+    left: 0.24rem;
+    color: #4ebbfe;
+}
+header a{
+    color: #4ebbfe;
+    display: block;
+}
+header .iconfont{
+    font-size: 0.4rem;
+}
+header .topleft{
+    float: left;
+}
+header .small{
+    float: left;
+    font-size: 0.22rem;
+}
+header .centertext{
+    font-family: "苹方 粗体";
+}
+header .topright{
+    position: absolute;
+    right: 0.24rem;
+}
+header .fenl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 0.94rem;
+}
+header .fenl .small{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.22rem;
+    color: #3bacfe;
+    font-weight: bold;
+}
+header .fenl .small i{
+    font-size: 0.22rem;
+    font-weight: bold;
+    margin-left: 0.1rem;
+}
+.xial{
+    position: absolute;
+    left:0;
+    top: 1.78rem;
+    width: 100%;
+    height: 2.04rem;
+    background: white;
+    padding: 0 0.82rem;
+    z-index: 900;
+    box-shadow: 0 0 1000rem 1000rem rgba(58,59,65,0.85);
+    display: none;
+}
+.xial li{
+    height: 0.68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.6);
+    list-style: none;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.04);
+}
+.xial li:nth-child(3){
+    border-bottom: none;
+}
+.xia2{
+    position: absolute;
+    left:0;
+    top: 1.78rem;
+    width: 100%;
+    height: 2.04rem;
+    background: white;
+    padding: 0 0.82rem;
+    z-index: 900;
+    box-shadow: 0 0 1000rem 1000rem rgba(58,59,65,0.85);
+    display: none;
+}
+.xia2 li{
+    height: 0.68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.6);
+    list-style: none;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.04);
+}
+.xia2 li:nth-child(3){
+    border-bottom: none;
+}
+.xia3{
+    position: absolute;
+    left:0;
+    top: 1.78rem;
+    width: 100%;
+    height: 2.04rem;
+    background: white;
+    padding: 0 0.82rem;
+    z-index: 900;
+    box-shadow: 0 0 1000rem 1000rem rgba(58,59,65,0.85);
+    display: none;
+}
+.xia3 li{
+    height: 0.68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.6);
+    list-style: none;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.04);
+}
+.xia3 li:nth-child(3){
+    border-bottom: none;
+}
+header .fenl .bo{
+    color: #36d681;
+}
+main{
+    padding: 0 0.24rem;
+}
+main .box{
+    margin-top: 0.7rem;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+main .box .yuan{
+    font-size: 0.26rem;
+    color: #fbb548;
+    position: absolute;
+    bottom: 0;
+    right: 0.64rem;
+}
+main .box .left{
+    margin: 0.1rem;
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 0.1rem;
+    background: white;
+    float: left;
+    box-shadow: 0 0 0.1rem 0.01rem rgba(0,0,0,0.13);
+    padding: 0.2rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+main .box .right{
+    width: calc(100% - 1.7rem);
+    height: 1.74rem;
+    border-radius: 0.1rem;
+    background: white;
+    float: left;
+    padding-left: 0.25rem;
+}
+main .box .right .one{
+    display: flex;
+}
+main .box .right .one span{
+    font-size: 0.3rem;
+    margin-left: 0.09rem;
+}
+main .box .right .two{
+    margin-top: 0.1rem;
+    display: flex;
+}
+main .box .right .two .dot{
+    margin-top: 0.12rem;
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
+    background: #44b5ff;
+}
+main .box .right .two p{
+    margin-left: 0.1rem;
+}
+main .box .right .two i{
+    margin-left: 0.15rem;
+    font-style: normal;
+    color: #36a8fe;
+}
+main .box .right .two .second{
+    margin-left: 0.5rem;
+}
+main .box .right .three{
+    margin-top: 0.1rem;
+    display: flex;
+}
+main .box .right .three .nice{
+    width: 1.21rem;
+    height: 0.35rem;
+    border-radius: 0.175rem;
+    background: rgba(59,171,255,0.1);
+    font-size: 0.2rem;
+    color: #36a8fe;
+    text-align: center;
+    line-height: 0.35rem;
+}
+main .box .right .three .very{
+    margin-left: 0.06rem;
+}
+main .box .right .four{
+    margin-top: 0.2rem;
+    display: flex;
+}
+main .box .right .four .dot{
+    margin-top: 0.12rem;
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(54,214,129,0.13);
+}
+main .box .right .four span{
+    margin-left: 0.1rem;
+    color: rgba(0,0,0,0.3);
+    font-size: 0.22rem;
+}
+main .box .right .four i{
+    margin-left: 0.05rem;
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.2);
+    font-style: normal;
+}
+main .box .jine{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 0.26rem;
+    color: #fbb548;
+}

@@ -1,0 +1,239 @@
+/*头部开始*/
+header{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+}
+header .left{
+    position: absolute;
+    left: 0.24rem;
+}
+header .iconfont{
+    font-size: 0.4rem;
+    color: #4ebbfe;
+}
+header .topleft{
+    float: left;
+}
+header .small{
+    float: left;
+    font-size: 0.22rem;
+}
+header .centertext{
+
+}
+header .topright{
+    position: absolute;
+    right: 0.24rem;
+}
+/*支付成功开始*/
+.success .pic{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.3rem;
+}
+.success .pic img{
+    width:1.5rem;
+    height:1.22rem;
+}
+.success .money{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #34da87;
+    border-radius:0.025rem;
+    box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(68,181,255,0.43);
+    margin-right: 0.1rem;
+}
+.success .money .c2{
+    margin-left: 0.1rem;
+}
+.success .money p{
+    font-size: 0.26rem;
+    color: #4f5b64;
+    font-weight: bold;
+}
+.success .money span{
+    font-size: 0.4rem;
+    color: #32d796;
+    font-weight: bold;
+    margin: 0 0.12rem;
+}
+.success h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.45rem;
+}
+.success h5 p{
+    font-size: 0.26rem;
+    color: #4f5b64;
+    font-weight: bold;
+}
+.success h5 span{
+    font-size: 0.4rem;
+    color: #ffd541;
+    font-weight: bold;
+    margin: 0 0.08rem;
+}
+.success ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.9rem;
+}
+.success ul li .select{
+     width:1.96rem;
+     height: 0.6rem;
+     font-size: 0.2rem;
+     color: #fff;
+     line-height: 0.6rem;
+     text-align: center;
+     background: linear-gradient(to right,#37e06f,#32d69a);
+     box-shadow: 0  0.04rem  0.2rem 0.04rem rgba(55,223,116,0.75);
+     border-radius: 0.3rem;
+     margin-right:0.6rem;
+ }
+.success ul li .home{
+    width:1.96rem;
+    height: 0.6rem;
+    font-size: 0.2rem;
+    color: #fff;
+    line-height: 0.6rem;
+    text-align: center;
+    background: #3bacfe;
+    box-shadow: 0  0.04rem  0.2rem 0.04rem rgba(59,172,254,0.43);
+    border-radius: 0.3rem;
+}
+/*支付成功结束*/
+
+/*您可能还需要开始*/
+main{
+    padding: 0 0.24rem;
+}
+main .title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.56rem;
+}
+main .title p{
+    font-size: 0.32rem;
+    color: #4f5b64;
+    font-weight: bold;
+}
+main .title p:nth-child(3){
+    color: #34da87;
+}
+main ul{
+    display: flex;
+    justify-content: space-between;
+}
+main .one{
+    margin-bottom: 0.72rem;
+}
+main .two{
+    margin-bottom: 0.52rem;
+}
+main ul li{
+    width: 3.2rem;
+    height:3.9rem;
+    position: relative;
+}
+main ul li .pic{
+    display: flex;
+    justify-content: center;
+}
+main ul li .pic img{
+    width: 1.53rem;
+    height: 1.61rem;
+    display: block;
+    margin-top: 0.16rem;
+    margin-bottom: 0.36rem;
+}
+main ul li .price,.sale{
+    display: flex;
+    justify-content: space-between;
+    /*padding-right: 0.38rem;*/
+}
+main ul li .price p{
+    font-size: 0.3rem;
+    color: rgba(0,0,0, 0.6);
+    font-weight: 500;
+}
+main ul li .price span{
+    font-size: 0.3rem;
+    color: #fbb548;
+    font-weight: 500;
+}
+main ul li .model{
+    font-size: 0.22rem;
+    color: rgba(0,0,0, 0.5);
+    font-weight: 600;
+    border-bottom: 0.04rem solid rgba(0,0,0, 0.04);
+    padding-bottom: 0.12rem;
+    margin-bottom: 0.12rem;
+}
+main ul li .sale .left{
+    display: flex;
+    align-items: center;
+}
+main ul li .sale .left .dot{
+    width:0.05rem;
+    height: 0.05rem;
+    border-radius: 0.025rem;
+    background: #44b5ff;
+    box-shadow: 0  0.04rem  0.2rem 0.03rem rgba(59,172,254,0.43);
+}
+main ul li .sale .left p{
+    font-size: 0.22rem;
+    color: rgba(0,0,0, 0.3);
+    font-weight: 600;
+    padding: 0 0.11rem;
+}
+main ul li .sale .left span{
+    font-size: 0.26rem;
+    color: #36a8fe;
+    font-weight: 600;
+}
+main ul li .sale .left .bai{
+    font-size: 0.26rem;
+    color: #b9e1ff;
+}
+main ul li .foot{
+    display: flex;
+    margin-top: 0.16rem;
+}
+main ul li .foot .box{
+    width:1.21rem;
+    height: 0.35rem;
+    font-size: 0.2rem;
+    color: #36a8fe;
+    line-height: 0.35rem;
+    text-align: center;
+    background: rgba(59,171,255,0.1);
+    border-radius: 0.175rem;
+    margin-right: 0.09rem;
+}
+main ul li .number{
+    width: 0.54rem;
+    height: 0.3rem;
+    font-size: 0.2rem;
+    color: #fff;
+    line-height: 0.3rem;
+    text-align: center;
+    background: linear-gradient(to right,#37e06f,#32d69a);
+    box-shadow: 0  0.02rem  0.2rem 0.04rem rgba(55,223,116,0.75);
+    border-radius: 0.3rem;
+    position: absolute;
+    top:0;
+    right:0;
+}
+/*您可能还需要结束*/

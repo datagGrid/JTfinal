@@ -1,0 +1,148 @@
+/*
+* @Author: e
+* @Date:   2018-09-27 09:23:48
+* @Last Modified by:   e
+* @Last Modified time: 2018-09-27 09:33:03
+*/
+
+i{
+	font-style: normal;
+}
+
+main{
+	padding:0.5rem 0.24rem;
+
+}
+main .goods{
+	height: 3.52rem;
+	width:  100%;
+	border-bottom: rgba(0,0,0,0.04) 0.02rem solid;
+
+}
+main .goods .content{
+	display: flex;
+}
+
+main .goods img{
+	width: 2.61rem;
+	height: 2.61rem;
+	margin-top: -0.16rem;
+	margin-right: 0.24rem;
+	margin-left: -0.14rem;
+
+}
+main .goods .text{
+	width: calc(100% - 2.85rem);
+	height: 100%;
+}
+/*//潜水艇高端龙头*/
+main .goods .text h3{
+	font-size: 0.3rem;
+	color: rgba(0,0,0,0.6);
+}
+/*型号*/
+main .goods .text .model{
+	display: flex;
+	align-items: center;
+	padding:0.06rem 0;
+}
+main .round{
+	width: 0.05rem;
+	height: 0.05rem;
+	border-radius: 50%;
+	margin-right: 0.08rem;
+}
+main .round.blue{
+	background: #44b5ff;
+	box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(68,181,255,0.43);
+
+}
+main .round.green{
+	background: #36d681;
+	box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(54,214,129,0.43);
+
+}
+main .goods .text .number span{
+	font-size: 0.26rem;
+	color: #36a8fe;
+}
+main .goods .text .norms span{
+	font-size: 0.22rem;
+	color: rgba(0,0,0,0.3);
+}
+/*价格*/
+main .goods .text .price{
+	margin-top: 0.4rem;
+	display: flex;
+	justify-content: space-between;
+}
+main .goods .text .price span,i{
+	font-size: 0.26rem;
+	color: #afb1b2;
+}
+/*数量*/
+
+main .goods .text .price .left,.right{
+	display: flex;
+	align-items: center;
+}
+main .goods .text .price .right h6,h7{
+	font-size: 0.24rem;
+	color: #afb1b2;
+}
+/*实际付款*/
+main .actual{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	font-size: 0.24rem;
+	color: #fbb548;
+	padding:0.2rem 0;
+}
+
+/*退款*/
+.refund{
+	padding:0 0.24rem;
+}
+.refund .only .tui{
+	display: flex;
+	align-items: center;
+}
+.refund .only .tui .round{
+	width: 0.1rem;
+	height: 0.05rem;
+	margin-right: 0.08rem;
+	border-radius: 0.025rem;
+}
+.refund .only .tui .round.blue{
+	background: #44b5ff;
+	box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(68,181,255,0.43);
+
+}
+.refund .only .tui .round.green{
+	background: #36d681;
+	box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(54,214,129,0.43);
+}
+.refund .only{
+	width: 100%;
+	height: 1.24rem;
+	/*line-height: 1.24rem;*/
+}
+.refund .only .tui h2{
+	font-size: 0.26rem;
+	font-weight: bold;
+}
+.refund .only span{
+	font-size: 0.22rem;
+	color: rgba(0,0,0,0.3);
+	margin-left: 0.2rem;
+	line-height: 0.5rem;
+}
+/*仅退款*/
+.blue .only .tui h2{
+	color: #41b2fc;
+}
+/*退货退款*/
+.green .only .tui h2{
+	color: #44d98a;
+}

@@ -1,0 +1,96 @@
+i{
+    font-style: normal;
+}
+/*头部开始*/
+header{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
+    margin-bottom: 0.42rem;
+}
+header .left{
+    position: absolute;
+    left: 0.24rem;
+}
+header .iconfont{
+    font-size: 0.4rem;
+    color: #4ebbfe;
+}
+header .topleft{
+    float: left;
+}
+header .small{
+    float: left;
+    font-size: 0.22rem;
+}
+header .centertext{
+
+}
+header .topright{
+    position: absolute;
+    right: 0.24rem;
+}
+/*头部结束*/
+main{
+    padding: 0 0.24rem;
+}
+main ul li .title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.2rem;
+    position: relative;
+}
+main ul li .title .circle{
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #41b2fc;
+    border-radius:0.025rem;
+    box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(68,181,255,0.43);
+    margin-right: 0.1rem;
+}
+main ul li .title p{
+    color: #41b2fc;
+    font-size: 0.26rem;
+    font-weight: 600;
+}
+main ul li input{
+    width: 100%;
+    height: 0.83rem;
+    background: #e7f6ff;
+    border-radius: 0.08rem;
+    padding-left: 0.36rem;
+    margin-bottom: 0.34rem;
+}
+main ul li input::-webkit-input-placeholder{
+    color: #b9c9d2;
+    font-size: 0.24rem;
+}
+main ul li .title .footer{
+    color: #41b2fc;
+    font-size: 0.32rem;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.35rem;
+}
+footer .btn{
+    width:4.54rem;
+    height: 0.6rem;
+    font-size: 0.2rem;
+    color: #fff;
+    line-height: 0.6rem;
+    text-align: center;
+    background: linear-gradient(to right,#37e06f,#32d69a);
+    box-shadow: 0  0.04rem  0.2rem 0.04rem rgba(55,223,116,0.75);
+    border-radius: 0.3rem;
+}

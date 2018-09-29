@@ -1,0 +1,233 @@
+header{
+    width: 100%;
+    background: white;
+    line-height: 0.84rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+    padding-bottom: 0.06rem;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(0,0,0,0.1);
+}
+header .left{
+    position: absolute;
+    left: 0.24rem;
+}
+header .iconfont{
+	color: #4ebbfe;
+    font-size: 0.4rem;
+}
+header .topleft{
+    float: left;
+}
+header .small{
+    float: left;
+    font-size: 0.22rem;
+}
+header .centertext{
+
+}
+header .topright{
+    position: absolute;
+    right: 0.24rem;
+}
+
+
+/*search start*/
+
+
+.search{
+	padding: 0 0.24rem;
+	height: 0.76rem;
+	line-height: 0.76rem;
+}
+.search .pos{
+	position: relative;
+	top: -0.14rem;
+	left: 0;
+}
+.search h2{
+	font-size: 0.28rem;
+	display: inline-block;
+}
+.search span{
+	font-size: 0.2rem;
+}
+.search .search-bar{
+	position: relative;
+	width: 100%;
+	height: 0.6rem;
+	
+}
+.search .search-bar input{
+	padding-left: 0.4rem;
+	border: 1px solid #cde7f8;
+	display: block;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	background: #f2faff;
+	border-radius: 0.4rem;
+}
+.search .search-bar input::-webkit-input-placeholder{
+    color: #b9c9d2;
+    font-size: 0.24rem;
+}
+.sousuobg{
+	position: absolute;
+	top: 0.04rem;
+	border-radius: 0.4rem;
+	right: 0.1rem;
+	width: 0.8rem;
+	height: 0.5rem;
+	background:#a4e0bd;
+}
+.search-bar i{
+	position: absolute;
+	width: 0.36rem;
+	color: #fff;
+	height: 0.36rem;
+	top: -0.08rem;
+	right: 0.34rem;
+}
+
+/*search end*/
+
+
+
+
+.recent {
+	
+	padding-top: 0.4rem;
+	padding-left: 0.24rem;
+}
+.recent h2{
+
+	padding-left: 0.4rem;
+	font-size: 0.32rem;
+	font-weight: bold;
+	position: relative;
+}
+.recent h2 span{
+	color: #41b2fc;
+}
+.recent h2 i{
+	position: absolute;
+	top: 0.2rem;
+	left: 0.1rem;
+	width: 0.14rem;
+	height: 0.06rem;
+	border-radius: 0.02rem;
+	background: #41b2fc;
+}
+
+.recent .module{
+	margin-left: 0.2rem;
+	margin-bottom: 0.7rem;
+} 
+.recent .col{
+
+	margin-top: 0.16rem;
+	margin-left: 0.2rem;
+	display: inline-block;
+	text-align: center;
+	line-height: 0.5rem;
+	border-radius: 0.4rem;
+	width: 1rem;
+	height: 0.5rem;
+	font-size: 0.26rem;
+	font-weight: bold;
+	background: #e7f6ff;
+	color: #8fcfff;
+}
+.recent .col.panel{
+	width: 1.5rem;
+}
+.list_info{
+	margin-bottom: 0.86rem;
+	margin-top: 0.5rem;
+	padding: 0 0.24rem;
+}
+.list_info .pic{
+	margin-right: 0.24rem;
+	width: 1.74rem;
+	height: 1.74rem;
+	border-radius: 0.16rem;
+	background: url(../img/tuceng21.png) center center no-repeat;
+	background-size: cover;
+}
+.list_info .pic1{
+	box-shadow: 0 0 0.1rem 0.04rem rgba(224,224,224,0.6);
+	background: #fff;
+	background-size: contain;
+}
+.list_info .pic1 img{
+	width: 100%;
+	height: 100%;
+	transform: scale(0.8);
+}
+.list_info .text p{
+	margin-bottom: 0.14rem;
+}
+.list_info .text p b,.sale b{
+	display: inline-block;
+	border-radius: 50%;
+	width: 0.08rem;
+	margin-bottom: 0.06rem;
+	height: 0.08rem;
+	margin-right: 0.08rem;
+	background: #41b2fc;
+}
+.sale b{
+	color: #36d681;
+}
+.list_info .text p.info{
+	font-size: 0.22rem;
+}
+.list_info .text p span{
+	font-weight: bold;
+	background: #e7f6ff;
+	text-align: center;
+	color: #41b2fc;
+	border-radius: 0.3rem;
+	line-height: 0.36rem;
+	display: inline-block;
+	width: 1.24rem;
+	height: 0.36rem;
+	font-size: 0.2rem;
+}
+.list_info .text h3{
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+.list_info .text em{
+	margin-right: 0.26rem;
+	color: #41b2fc;
+	font-size: 0.26rem;
+	font-style: normal;
+}
+
+i.fr{
+	color: #fbba59;
+	font-size: 0.26rem;
+	font-style: normal;
+	margin-left: 2rem;
+}
+i.fr2{
+	margin-left: 2.7rem;
+}
+.sale{
+	font-size: 0.2rem;
+}
+.sale a{
+	display: inline-block;
+	text-align: center;
+	line-height: 0.46rem;
+	margin-left: 2rem;
+	color: #fff;
+	width: 1.3rem;
+	height: 0.46rem;
+	font-size: 0.2rem;
+	border-radius: 0.2rem;
+	background: #3bacfe;
+}

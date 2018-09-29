@@ -1,0 +1,146 @@
+header{
+    width: 100%;
+    background: white;
+    line-height: 0.84rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+    padding-bottom: 0.06rem;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(0,0,0,0.1);
+}
+header .left{
+    position: absolute;
+    left: 0.24rem;
+}
+header .iconfont{
+	color: #4ebbfe;
+    font-size: 0.4rem;
+}
+header .topleft{
+    float: left;
+}
+header .small{
+    float: left;
+    font-size: 0.22rem;
+}
+header .centertext{
+
+}
+header .topright{
+    position: absolute;
+    right: 0.24rem;
+}
+
+
+/*search start*/
+
+
+.search{
+	padding: 0 0.24rem;
+	width: 100%;
+	height: 0.76rem;
+	line-height: 0.76rem;
+}
+.search .pos{
+	position: relative;
+	top: -0.14rem;
+	left: 0;
+}
+.search .pos h2 a{
+	color: #36a8fe;
+}
+.search h2{
+	font-size: 0.28rem;
+	display: inline-block;
+}
+.search span{
+	font-size: 0.2rem;
+}
+.search .search-bar{
+	position: relative;
+	margin-left: 0.3rem;
+	width: 5.6rem;
+	height: 0.6rem;
+	
+}
+.search .search-bar input{
+	padding-left: 0.34rem;
+	border: 1px solid #cde7f8;
+	display: block;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	background: #f2faff;
+	border-radius: 0.4rem;
+}
+.search .search-bar input::-webkit-input-placeholder{
+    color: #b9c9d2;
+    font-size: 0.24rem;
+}
+
+.search-bar i{
+	position: absolute;
+	width: 0.36rem;
+	height: 0.36rem;
+	top: -0.1rem;
+	right: 0.2rem;
+}
+
+/*search end*/
+
+#allmap 
+{
+	width: 100%;
+	height: 4.78rem;
+	overflow: hidden;
+	margin:0;
+	font-family:"微软雅黑";
+}
+
+.info{
+	padding: 0 0.24rem;
+}
+.info h2{
+	position: relative;
+	padding-left: 0.2rem;
+	font-weight: bold;
+	font-size: 0.32rem;
+	margin-top: 0.36rem;
+	padding-bottom: 0.22rem;
+	border-bottom:1px solid #dfdada ;
+}
+.info h2 span{
+	color: #41b2fc;
+}
+.info li{
+	position: relative;
+	padding-left: 0.2rem;
+	padding-top: 0.46rem;
+	height: 1.12rem;
+}
+.info li h3{
+	font-size: 0.3rem;
+}
+.info li i{
+	position: absolute;
+	top: 0.66rem;
+	left: 0;
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 0.04rem;
+	background: #37ce9a;
+}
+.info li p{
+	color: #c2c4c5;
+	font-size: 0.22rem;
+}
+.info_title i{
+	position: absolute;
+	top: 0.2rem;
+	left: 0;
+	width: 0.14rem;
+	height: 0.06rem;
+	border-radius: 0.02rem;
+	background: #41b2fc;
+}

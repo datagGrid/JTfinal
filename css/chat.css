@@ -1,0 +1,91 @@
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+}
+.chat_box{
+    width: 100%;
+    padding:0.4rem 0.24rem 0 0.24rem;
+    display: flex;
+    align-items: center;
+}
+.chat_box1{
+    margin-top: 1.2rem;
+}
+/*头像*/
+.headpic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.headpic img{
+    width: 0.8rem;
+    height: 0.8rem;
+
+}
+.headpic p{
+    color:#989898;
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+}
+/*聊天框*/
+.buyer{
+    padding:0.3rem 0.2rem;
+    border-radius: 0.6rem;
+    border-top-left-radius:0;
+    background: linear-gradient(to right,#30a3fe,#6fd5fe);
+    box-shadow: 0 0 0.29rem 0.1rem rgba(41,167,255,0.36);
+    color: #fff;
+    font-size: 0.24rem;
+    margin-left: 0.28rem;
+}
+.buyer i{
+    font-size: 0.3rem;
+    color: #fff;
+}
+.chat_box span{
+    margin-left: 0.15rem;
+    color: #44b5ff;
+    font-size: 0.2rem;
+}
+/*卖家*/
+.seller_box{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.seller{
+    border-radius: 0.6rem;
+    border-top-right-radius:0;
+    margin-right: 0.28rem;
+    background: linear-gradient(to right,#2fd4bb,#2dde57);
+}
+/*键盘*/
+.bottom{
+    width: 100%;
+    height: 1rem;
+    background:#36a8fe;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 0.24rem 0 0.34rem;
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+.bottom .key img{
+    width: 0.64rem;
+    height: 0.43rem;
+}
+.bottom input{
+    width: 5.87rem;
+    height: 0.56rem;
+    border-radius:0.28rem ;
+    background: #fff;
+    border:none;
+    border:#2993e3 solid 0.02rem;
+    padding:0.2rem;
+    font-size: 0.24rem;
+}

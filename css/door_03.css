@@ -1,0 +1,180 @@
+main{
+    padding: 0.46rem 0.24rem;
+}
+main .top{
+    width: 100%;
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.4);
+}
+main i{
+    float: right;
+}
+main .box{
+    margin-top: 0.6rem;
+    overflow: hidden;
+    padding-bottom:0.33rem;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.02);
+}
+main .img{
+    width: 1.74rem;
+    height: 1.74rem;
+    border-radius: 0.1rem;
+    background: white;
+    padding: 0.15rem;
+    float: left;
+    box-shadow: 0 0 0.31rem 0.01rem rgba(223,223,223,0.33);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+main .right{
+    width: calc(100% - 1.74rem);
+    float: left;
+    padding-left: 0.25rem;
+    height: 1.74rem;
+    position: relative;
+}
+main .right .mini{
+    display: flex;
+}
+main .right .mini1{
+    margin-top: 0.13rem;
+}
+main .right .mini2{
+    margin-top: 0.1rem;
+}
+main .right .mini3{
+    margin-top: 0.2rem;
+}
+main .right .mini1  .dot{
+    margin-top: 0.15rem;
+}
+main .right .mini2 .dot{
+    margin-top: 0.1rem;
+
+}
+main .right .mini3 .dot{
+    margin-top: 0.15rem;
+}
+.dot{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #44b5ff;
+}
+main .right .text1{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.6);
+}
+main .right .text2{
+    font-size: 0.26rem;
+    color: #36a8fe;
+    margin-left: 0.09rem;
+}
+main .right .text3{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    margin-left: 0.09rem;
+}
+main .right .text4{
+    font-size: 0.26rem;
+    color: #fbb548;
+    margin-left: 0.09rem;
+}
+main .right .cheng{
+    display: flex;
+    position: absolute;
+    bottom: -0.05rem;
+    right: 0;
+}
+main .right .cheng span{
+    font-size: 0.24rem;
+    color: #8a8c8d;
+    margin-left: 0.09rem;
+}
+main .right .cheng .dot{
+    margin-top: 0.12rem;
+}
+main .youhui{
+    width: 100%;
+    height: 0.86rem;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.02);
+}
+main .youhui .left{
+    float: left;
+    display: flex;
+    height: 100%;
+}
+main .youhui .left .dot{
+    margin-top: 0.4rem;
+}
+main .youhui .left h1{
+    height: 100%;
+    font-size: 0.24rem;
+    color: #8a8c8d;
+    line-height: 0.86rem;
+    margin-left: 0.09rem;
+}
+main .youhui .left .beizhu{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.4);
+    line-height: 0.86rem;
+    margin-left: 0.18rem;
+}
+main .youhui .go{
+    float: right;
+    height: 100%;
+    line-height: 0.86rem;
+    color: rgba(0,0,0,0.4);
+}
+main .youhui .go span{
+    font-size: 0.22rem;
+}
+main .youhui .go span{
+    font-size: 0.22rem;
+}
+main .youhui .go .bluet{
+    margin: 0 0.15rem;
+    color: #36a8fe;
+}
+footer{
+    width: 100%;
+    height: 1.09rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #f1faff;
+    color: white;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.2rem;
+    padding: 0.27rem 0.24rem;
+}
+footer .heji{
+    display: flex;
+    float: left;
+}
+footer .heji .dot{
+    margin-top: 0.28rem;
+}
+footer .heji span{
+    font-style: 0.24rem;
+    margin-left: 0.09rem;
+    color: rgba(59,172,254,0.6);
+}
+footer .heji p{
+    font-size: 0.36rem;
+    color: rgb(59,172,254);
+}
+footer .tijiao{
+    float: right;
+    font-size: 0.2rem;
+    width: 3.5rem;
+    height: 0.6rem;
+    background: #3bacfe;
+    border-radius: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+    box-shadow: 0 0 0.2rem 0.02rem rgba(59,172,254,0.43);
+}

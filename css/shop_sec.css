@@ -1,0 +1,239 @@
+header{
+    width: 100%;
+    height: 0.84rem;
+    background: white;
+    line-height: 0.84rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+
+}
+header .left{
+    position: absolute;
+    left: 0.24rem;
+}
+header .iconfont{
+    font-size: 0.4rem;
+}
+header a{
+    text-decoration: none;
+    color: #3bacfe;
+}
+header .topleft{
+    float: left;
+}
+header .small{
+    float: left;
+    font-size: 0.22rem;
+}
+header .centertext{
+
+}
+header .topright{
+    position: absolute;
+    right: 0.24rem;
+}
+.middle{
+    width: 100%;
+    height: 1rem;
+    padding-top: 0.2rem;
+    display: flex;
+    justify-content: space-around;
+    /*justify-content: center;*/
+    box-shadow: 0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
+}
+.middle .box{
+    width: 1.3rem;
+    height: 0.5rem;
+    color: #3bacfe;
+    text-align: center;
+    line-height: 0.5rem;
+    margin-left: 0.24rem;
+}
+.middle .box4{
+    /*margin-right: 0.24rem;*/
+}
+.middle .box1{
+    width: 1.3rem;
+    height: 0.5rem;
+    color: #3bacfe;
+    line-height: 0.5rem;
+    text-align: center;
+}
+.middle .box2{
+    width: 1.3rem;
+    height: 0.5rem;
+    color: #3bacfe;
+    line-height: 0.5rem;
+    text-align: center;
+}
+.middle .box3{
+    width: 1.3rem;
+    height: 0.5rem;
+    color: #3bacfe;
+    line-height: 0.5rem;
+    text-align: center;
+}
+.middle .box4{
+    width: 1.3rem;
+    height: 0.5rem;
+    color: #3bacfe;
+    line-height: 0.5rem;
+    text-align: center;
+}
+.bigbox{
+    /*display: none;*/
+}
+.center{
+    width: 100%;
+    height: 1rem;
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.36rem;
+    position: relative;
+}
+.center h3{
+    color: #36d681;
+    line-height: 1rem;
+}
+.center h4{
+    color: #3bacfe;
+    line-height: 1rem;
+}
+.center h5{
+    color: #3bacfe;
+    line-height: 1rem;
+}
+.list{
+    width: 100%;
+    height: 1.97rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.list .box{
+    width: 1.97rem;
+    height: 1.97rem;
+    background: white;
+    border-radius: 0.1rem;
+    margin-left: 0.24rem;
+    padding: 0.25rem;
+    float: left;
+}
+.list .big{
+    float: left;
+}
+.list .box img{
+    width: 100%;
+    height: 100%;
+}
+.list .big h3{
+    /*float: left;*/
+    margin-left: 0.25rem;
+    /*color: #8a8b8c;*/
+    font-weight: normal;
+    font-size: 0.3rem;
+    margin-top: 0.1rem;
+}
+.list .big p{
+    font-size: 0.23rem;
+    margin-left: 0.25rem;
+    padding-top: 0.05rem;
+    color: #afb1b2;
+}
+.list .big .small{
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #3bacfe;
+    border-radius: 50%;
+    margin-left: 0.25rem;
+    margin-top: 0.3rem;
+    /*float: left;*/
+}
+.list .big h4{
+    font-size: 0.22rem;
+    margin-left: 0.4rem;
+    margin-top: -0.15rem;
+    color: #afb1b2;
+}
+.list .big h5{
+    font-size: 0.22rem;
+    margin-left: 1rem;
+    margin-top: -0.28rem;
+    color: #36a8fe;
+    font-weight: normal;
+}
+.list .big .xiao{
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #36d681;
+    border-radius: 50%;
+    margin-left: 1.9rem;
+    margin-top: -0.16rem;
+}
+.list .big h1{
+    font-size: 0.22rem;
+    margin-left: 2.02rem;
+    margin-top: -0.18rem;
+    color: #afb1b2;
+    font-weight: normal;
+}
+.list .big h2{
+    font-size: 0.22rem;
+    margin-left: 2.6rem;
+    margin-top: -0.26rem;
+    color: #36a8fe;
+    font-weight: normal;
+}
+.list .big h6{
+    font-size: 0.22rem;
+    margin-left: 2.6rem;
+    margin-top: -0.26rem;
+    color: #fbb548;
+    font-weight: normal;
+    float: right;
+}
+.list .big img{
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-left: 0.24rem;
+}
+.list .big i{
+    font-style: normal;
+    color: #d2d2d2;
+    font-size: 0.2rem;
+}
+.smallbox{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 3.1rem;
+    display: none;
+}
+.middlebox{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 3.1rem;
+    display: none;
+}
+.centerbox{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 3.1rem;
+    display: none;
+}
+.lastbox{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 3.1rem;
+    display: none;
+}
+.middle .dis{
+    border-radius: 0.26rem;
+    background: #3bacfe;
+    color: white;
+}

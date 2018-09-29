@@ -1,0 +1,67 @@
+header{
+    width: 100%;
+    height: 0.84rem;
+    background: white;
+    line-height: 0.84rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
+}
+header .left{
+    position: absolute;
+    left: 0.24rem;
+}
+header .iconfont{
+    font-size: 0.4rem;
+    color: #4ebbfe;
+}
+header .topleft{
+    float: left;
+}
+header .small{
+    float: left;
+    font-size: 0.22rem;
+}
+header .centertext{
+
+}
+header .topright{
+    position: absolute;
+    right: 0.24rem;
+}
+body{
+    background: #fbfeff;
+    font-family: "苹方";
+    height: 100%;
+}
+section{
+    width: 100%;
+    height: auto;
+    padding: 0 0.53rem;
+    margin-top: 0.5rem;
+}
+section .list{
+    width: 100%;
+    height: 0.9rem;
+    border-bottom: 0.01rem solid rgba(255, 255, 255, 0.15);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+section .list span{
+    margin-left: 0.2rem;
+    color:#9d9e9f;
+    font-size: 0.3rem;
+    font-weight: 600;
+}
+section .list a i{
+    position: absolute;
+    right: 0;
+    font-size: 0.5rem;
+    font-weight: 600;
+   top: 0.2rem;
+   color:#d4edff;
+}

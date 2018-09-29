@@ -1,0 +1,236 @@
+header{
+    width: 100%;
+    height: 0.84rem;
+    background: white;
+    line-height: 0.84rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
+}
+header .left{
+    position: absolute;
+    left: 0.24rem;
+}
+header .iconfont{
+    font-size: 0.4rem;
+    color: #4ebbfe;
+}
+header .topleft{
+    float: left;
+}
+header .small{
+    float: left;
+    font-size: 0.22rem;
+}
+header .centertext{
+
+}
+header .topright{
+    position: absolute;
+    right: 0.24rem;
+}
+.empty{
+    height: 0.8rem;
+    width: 100%;
+    /* box-shadow: 0 0.4rem 1rem 0.03rem rgba(41,167,255,0.13) inset; */
+}
+.bit{
+    width: 100%;
+    height: 2.5rem;
+    background-image: url(../img/bit.png);
+    background-size: cover;
+    background-position: center;
+}
+body{
+    background: #fbfeff;
+    font-family: "苹方";
+    height: 100%;
+}
+.person{
+    height: 3.08rem;
+    width: 100%;
+    position: relative;
+}
+.person-box{
+    width: 6.43rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 0.28rem;
+    left: 0.54rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0.01rem 0.01rem 1rem 0.01rem rgba(0,0,0,0.15);
+}
+.money{
+    height: 1.22rem;
+    width: 6.43rem;
+    position: absolute;
+    left: 0.54rem;
+    bottom: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.money-yue,.money-juan,.money-jinbi{
+    width: 0.9rem;
+    height: 100%;
+    text-align: center;
+}
+.money h5{
+    font-size: 0.43rem;
+    font-weight: bold;
+}
+.money span{
+    font-size: 0.24rem;
+    color: #8e9397;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+    margin-top: 0.2rem;
+}
+.yue{
+   background: linear-gradient(to right ,#30a3fe,#6fd5fe);
+   -webkit-background-clip: text;
+   color: transparent;
+   text-shadow: 0.01rem 0.14rem 0.1rem 0.08rem rgba(41,167,255,0.36);
+}
+.juan{
+    background: linear-gradient(to right ,#2dde59,#2fd4ba);
+   -webkit-background-clip: text;
+   color: transparent;
+   text-shadow: 0.01rem 0.14rem 0.1rem 0.08rem rgba(46,213,147,0.36);
+}
+.jinbi{
+    background: linear-gradient(to right,#ffb83a,#ffe333);
+   -webkit-background-clip: text;
+   color: transparent;
+   text-shadow:  0.01rem 0.14rem 0.1rem 0.08rem rgba(255,213,53,0.36);
+}
+.person-box img{
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.person-box-2{
+    width: 100%;
+    position: absolute;
+    top: 2.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #8e9397;
+}
+.person-box-2>img{
+    width: 0.3rem;
+    height: 0.25rem;
+    margin-right: 0.08rem;
+}
+.person-box-2>img.huang{
+    width: 0.35rem;
+    height: 0.3rem;
+}
+.person-box-2>img.sj{
+    width: 3rem;
+    height: 0.08rem;
+    margin-left: 0.08rem;
+    margin-right: 0.08rem;
+}
+.name{
+    width: calc(100% - 0.33rem - 1.21rem);
+    height: 1.21rem;
+    margin-top: 0.33rem;
+    padding: 0.15rem 0.22rem;
+    position: relative;
+}
+.name h2{
+    font-size: 0.3rem;
+    color: #000;
+    font-weight: 700;
+}
+.name>span{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   margin-top: 0.24rem;
+   color:#8e9397; 
+   font-weight: 500;
+}
+.name>span .chongzhi{
+    color: #3bacfe;
+}
+.name span>img{
+    width: 0.2rem;
+    height: 0.2rem;
+    margin:0;
+}
+.shengji{
+    font-size: 0.2rem;
+    color: #3bacfe;
+    float: right;
+}
+.shengji img{
+    height: 0.07rem;
+    width: 0.2rem;
+    margin:0;
+}
+
+section{
+    width: 100%;
+    height: 8.9rem;
+    padding:0 0.53rem;
+    /* background: #fbfeff; */
+}
+section ul{
+    width: 100%;
+    height: 3rem;
+}
+section .ul2{
+    margin-top: 0.6rem;
+}
+section ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+section ul li.li1{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    width: 100%;
+    font-size: 0.3rem;
+    position: relative;
+    color: #4f5b64;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.15);
+}
+section ul li.li1 .me{
+    margin-left: 0.1rem;
+    color: #30a3fe;
+}
+section ul li.li1 p{
+    position: absolute;
+    right: 0;
+    color: #8e9397;
+}
+section ul li.li2{
+    height: calc(100% - 0.8rem);
+    width: 100%;
+}
+section ul li.li2 a{
+    width: 1.7rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #8e9397;
+}
+section ul li.li2 a>img{
+    width: 1.2rem;
+    height: 1.2rem;
+}

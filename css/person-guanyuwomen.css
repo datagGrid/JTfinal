@@ -1,0 +1,131 @@
+header{
+    width: 100%;
+    height: 0.84rem;
+    background: white;
+    line-height: 0.84rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
+}
+header .left{
+    position: absolute;
+    left: 0.24rem;
+}
+header .iconfont{
+    font-size: 0.4rem;
+    color: #4ebbfe;
+}
+header .topleft{
+    float: left;
+}
+header .small{
+    float: left;
+    font-size: 0.22rem;
+}
+header .centertext{
+
+}
+header .topright{
+    position: absolute;
+    right: 0.24rem;
+}
+body{
+    background: #fbfeff;
+    font-family: "苹方";
+    height: 100%;
+}
+.logo{
+    width: 100%;
+    height: 3.63rem;
+    padding-top: 0.64rem;
+    padding-bottom: 0.47rem;
+}
+.logo .more{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bit.png);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.logo .more>img{
+    width: 1.1rem;
+    height: 1.5rem;
+}
+.logo .more .box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.4rem;
+}
+.logo .more .box span{
+    font-size: 0.3rem;
+    color: black;
+    font-weight: 600;
+    margin: 0 0.2rem;
+}
+section{
+    width: 100%;
+    height: auto;
+   padding:0 0.54rem;
+}
+.li{
+    padding-bottom: 0.6rem;
+    width: 100%;
+    height: 100%;
+    border-top: 0.02rem solid rgba(0, 0,0 , 0.15);
+    border-bottom: 0.02rem solid rgba(0, 0,0 , 0.15);
+}
+section .list{
+    width: 100%;
+    height: auto;
+}
+
+section .list p{
+    margin-top:0.6rem; 
+    font-size: 0.3rem;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    text-align: justify;
+    /* text-justify: inter-ideograph; */
+}
+/* section .list2 p.number1{
+    margin-top:0.8rem; 
+} */
+section .li-2{
+    width: 100%;
+    height: 1.1rem;
+    border-bottom: 0.01rem solid rgba(0, 0,0 , 0.15);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1.1rem;
+    position: relative;
+}
+section .li-2 span{
+    color: black;
+    font-weight: 500;
+    font-size: 0.3rem;
+    margin-left: 0.2rem;
+
+}
+section .li-2 a{
+    color: #4ebbfe;
+    font-size: 0.3rem;
+    font-weight: 500;
+    position: absolute;
+    right: 0;
+}
+section .li-2 a.number{
+    color: #68ce8a;
+}

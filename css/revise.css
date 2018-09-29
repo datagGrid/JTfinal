@@ -1,0 +1,107 @@
+
+
+.type{
+    width: 100%;
+    height: 4.34rem;
+    padding:0.34rem 0.24rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0 300rem 30rem rgba(0,0,0,0.8);
+    position: fixed;
+    bottom: 0;
+    left:0;
+    z-index: 999;
+    display: none;
+    /*position: relative;*/
+}
+.type .serve span,i{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: black;
+}
+.type .serve i{
+    color: #44b5ff;;
+}
+.type .serve .close{
+    font-size: 0.36rem;
+    color: #d1dde6;
+    position: absolute;
+    right:0.24rem;
+    top:0.2rem;
+    cursor: pointer;
+}
+/*仅退款*/
+.type .tui{
+    width: 100%;
+    float: left;
+}
+.type .tui .only{
+    width: 100%;
+    border-bottom: rgba(0,0,0,0.04) 0.02rem solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.type .tui .rejected{
+    border-bottom: none;
+}
+.type .tui .only a{
+    display: flex;
+    align-items: center;
+    line-height: 0.9rem;
+}
+.type .tui .only a h2{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.8);
+}
+.type .round{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    margin-right: 0.08rem;
+}
+.type .round.blue{
+    background: #44b5ff;
+    box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(68,181,255,0.43);
+
+}
+.type .btn{
+    margin-top: 2.4rem;
+    cursor: pointer;
+
+}
+/*选中效果*/
+.type .select{
+     width: 0.22rem;
+     height: 0.22rem;
+     border-radius: 50%;
+     background: #3bb1ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.type .select .sel_fir{
+    width: 0.11rem;
+    height: 0.11rem;
+    border-radius: 50%;
+    background: #279deb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.type .select .sel_sec{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #fff;
+
+}
+
+/*退款原因*/
+.money_rea{
+    height: 7.98rem;
+    /*display: block;*/
+}
+.money_rea .btn{
+    margin-top: 6rem;
+}

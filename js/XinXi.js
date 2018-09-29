@@ -15,7 +15,6 @@ window.onload=function () {
                 if(tel.value!==""){
                     if(yu.value!==""){
                         if(name.value!=="" && address.value!=="" && tel.value!=="" && yu.value!==""){
-                            alert("登录成功");
                             window.open("PT_Login.html",'_self');
                             $(".tj").css("background","#3bacfe");
                             $(".tj").css("box-shadow","0 0 0.8rem 0.01rem rgba(41,167,255,0.13)");

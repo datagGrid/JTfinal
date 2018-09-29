@@ -9,7 +9,7 @@ html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input,
 }
 html, body {
     min-height: 100%;
-    font-family: "微软雅黑","苹方","宋体";
+    font-family: "苹方","微软雅黑","宋体";
 }
 
 body {

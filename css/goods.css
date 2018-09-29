@@ -104,11 +104,17 @@ main .get .get_box{
     line-height: 0.4rem;
     text-align: center;
     color: #fff;
+    font-size: 0.24rem;
     padding:0 0.24rem;
     border-radius: 0.2rem;
     margin-left: 0.2rem;
     background: linear-gradient(to right,#ffca3b,#ff933b);
     box-shadow: 0 0 0.16rem 0.04rem rgba(255,142,81,0.3);
+}
+main .get .get_box i{
+    color: #fff;
+    font-size: 0.24rem;
+
 }
 /*无额外收费*/
 main .charge{
@@ -248,21 +254,97 @@ main .rate .user_left span{
     box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(54,214,129,0.43);
 }
 /*相似推荐*/
-.same{
-    border:0;
+.wares .same{
+    border-bottom:none;
 }
 /*商品列表*/
 .recom{
     padding: 0 0.24rem;
+    margin-bottom: 1.4rem;
 }
 .recom ul{
     display: flex;
-
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .recom ul li{
-    width: 30%;
-    height: 2rem;
+    width: 26%;
+    margin-top: 0.3rem;
+    background: #fff;
+}
+.recom ul li .pic{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.2rem;
+}
+.recom ul li img{
+    width: 1.31rem;
+    height: 1.37rem;
+    margin:0 auto;
+}
+.recom ul li p{
+    color: rgba(0,0,0,0.6);
+    font-size: 0.26rem;
+    line-height: 0.5rem;
+}
+.recom ul li span,i{
+    color: #ff844e;
+    font-size: 0.28rem;
+}
+/*加入购物车*/
+.last{
+    width: 100%;
+    height: 1.1rem;
+    padding:0 0.24rem;
+    background: #f0fafe;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.last .shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0.56rem;
+    margin-left: 0.24rem;
+}
+.last .shop img{
+    width: 0.52rem;
+    height: 0.5rem;
+}
+.last .shop p{
+    font-size: 0.2rem;
+    color: #3bacfe;
+}
+.last .call{
+    margin-left: 0;
+}
+.last .call img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.last .call p{
+    color: #2ed977;
+}
 
-    background: #ff6666;
+.last .car{
+    width: 1.98rem;
+    height: 0.6rem;
+    color: #fff;
+    font-size: 0.24rem;
+    text-align: center;
+    margin-right: 0.3rem;
+    line-height: 0.6rem;
+    border-radius: 0.3rem;
+    background: linear-gradient(to right,#37df72,#32d698);
+    box-shadow: 0 0 0.8rem 0.01rem rgba(55,223,116,0.13);
+}
+
+.last .order{
+    margin-right: 0;
+    background: linear-gradient(to right,#3bacfe,#3bacfe);
+    box-shadow: 0 0 0.8rem 0.01rem rgba(59,172,254,0.3);
 }

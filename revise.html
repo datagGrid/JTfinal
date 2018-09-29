@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_853283_lq7ahfhs4q.css">
     <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/rem.css">
+    <script src="js/select.js"></script>
     <link rel="stylesheet" href="css/refundbase.css">
     <link rel="stylesheet" href="css/rejected.css">
     <link rel="stylesheet" href="css/revise.css">
-    <title>Document</title>
+    <title>修改申请</title>
 </head>
 <body>
 <header>
@@ -98,7 +99,7 @@
     <div class="only">
         <div class="tui orange">
             <div class="round orange"></div>
-            <h2>退款</h2><i>金额</i> <span>(已收到货，需要退换已收到的货物)</span>
+            <h2>退款</h2><i>金额</i> <span>(最多￥<span>78.00</span>，含发货邮费)</span>
         </div>
         <div class="money">
             <span>￥</span><h1>60.00</h1>
@@ -128,7 +129,7 @@
 
 </div>
 <div class="submit">
-    <button>提交</button>
+    <a href="details.html"><button>提交</button></a>
 </div>
 <!--服务类型弹框-->
 <div class="type ser_type">
@@ -142,6 +143,11 @@
                 <div class="round blue"></div>
                 <h2>仅退款</h2>
             </a>
+            <div class="select">
+                <div class="sel_fir">
+                    <div class="sel_sec"></div>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -151,7 +157,7 @@
                 <div class="round blue"></div>
                 <h2>退款退货</h2>
             </a>
-            <div class="select">
+            <div class="select" style="opacity: 1">
                 <div class="sel_fir">
                     <div class="sel_sec"></div>
                 </div>
@@ -173,8 +179,13 @@
         <div class="only">
             <a href="javascript:;">
                 <div class="round blue"></div>
-                <h2>退运费</h2>
+                <h2>买错了</h2>
             </a>
+            <div class="select" style="opacity: 1">
+                <div class="sel_fir">
+                    <div class="sel_sec"></div>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -198,6 +209,11 @@
                 <div class="round blue"></div>
                 <h2>颜色／款式／型号与商品描述不符</h2>
             </a>
+            <div class="select">
+                <div class="sel_fir">
+                    <div class="sel_sec"></div>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -207,6 +223,11 @@
                 <div class="round blue"></div>
                 <h2>材质与商品描述不符</h2>
             </a>
+            <div class="select">
+                <div class="sel_fir">
+                    <div class="sel_sec"></div>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -216,6 +237,11 @@
                 <div class="round blue"></div>
                 <h2>做工粗糙有瑕疵</h2>
             </a>
+            <div class="select">
+                <div class="sel_fir">
+                    <div class="sel_sec"></div>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -225,6 +251,11 @@
                 <div class="round blue"></div>
                 <h2>质量问题</h2>
             </a>
+            <div class="select">
+                <div class="sel_fir">
+                    <div class="sel_sec"></div>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -245,10 +276,12 @@
     $(".btn_fir").click(function () {
         $(".ser_type").slideUp("fast");
         document.body.style.overflow="auto";
+        $("#wrong span").text(texta);
     })
     $(".close_fir").click(function () {
         $(".ser_type").slideUp("fast");
         document.body.style.overflow="auto";
+        $("#wrong span").text(texta);
     })
     //退款原因弹框
     $("#wrong_rea").click(function () {
@@ -258,10 +291,26 @@
     $(".btn_sec").click(function () {
         $(".money_rea").slideUp("fast");
         document.body.style.overflow="auto";
+        $("#wrong_rea span").text(texta);
     })
     $(".close_sec").click(function () {
         $(".money_rea").slideUp("fast");
         document.body.style.overflow="auto";
+        $("#wrong_rea span").text(texta);
     })
+//    退款原因选中效果切换
+    let tui=$(".money_rea .tui");
+    let select=$(".money_rea .select");
+    tui.click(function () {
+        let index=$(this).index()-1;
+        texta=$(this).children().children().children().next().text();
+        texta=$(this).children().children().children().next().text();
 
+        select.css("opacity","0");
+        select.eq(index).css("opacity","1");
+    })
+//    服务类型选中效果切换
+    let tui1=$(".ser_type .tui");
+    let select1=$(".ser_type .select");
+    select_effect(tui1,select1);
 </script>

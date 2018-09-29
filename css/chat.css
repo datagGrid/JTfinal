@@ -44,6 +44,8 @@ header{
 .buyer i{
     font-size: 0.3rem;
     color: #fff;
+    margin-top: 0.1rem;
+
 }
 .chat_box span{
     margin-left: 0.15rem;
@@ -88,4 +90,45 @@ header{
     border:#2993e3 solid 0.02rem;
     padding:0.2rem;
     font-size: 0.24rem;
+}
+
+#ddr{
+    margin: 0 -0.3rem;
+    width: 2rem;
+    height: 0.6rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ddr{
+    width: 0.04rem;
+    height:0.6rem;
+    float: left;
+    margin: 0.03rem;
+    background-color: #fff;
+    animation: loading 1s infinite ease-in-out;/*animation：动画名称 持续时间 动画速度曲线 延迟 执行多少次 是否正反方向轮流播放*/
+}
+.ddr2{
+    animation-delay: -0.9s;/*定义开始执行的地方，负号表示直接从第900ms开始执行*/
+}
+.ddr3{
+    animation-delay: -0.8s;
+}
+.ddr4{
+    animation-delay: -0.7s;
+}
+.ddr5{
+    animation-delay: -0.6s;
+}
+@keyframes loading {
+    0%,40%,100%{ /*定义每帧的动作*/
+        -webkit-transform: scaleY(0.5);
+    }
+    20%{
+        -webkit-transform: scaleY(1);
+    }
+}
+.buyer.bottom2{
+    padding: 0.12rem;
 }

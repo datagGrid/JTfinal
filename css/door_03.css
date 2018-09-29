@@ -178,3 +178,74 @@ footer .tijiao{
     line-height: 0.6rem;
     box-shadow: 0 0 0.2rem 0.02rem rgba(59,172,254,0.43);
 }
+.tanchu{
+    display: none;
+    width: 100%;
+    height: 4.92rem;
+    background: white;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    padding: 0.24rem 0.24rem;
+    box-shadow: 0 0 1000rem 1000rem rgba(0,0,0,0.45);
+}
+.tanchu .cha{
+    position: absolute;
+    top: 0.24rem;
+    right: 0.24rem;
+    color: #d1dde6;
+}
+.tanchu h1{
+    font-size: 0.2rem;
+    color: #41b2fc;
+    width: 100%;
+    text-align: center;
+}
+.tanchu .p1{
+    margin-top: 0.75rem;
+}
+.tanchu .p2{
+    border-bottom: 0.02rem solid rgba(0,0,0,0.02);
+    border-top: 0.02rem solid rgba(0,0,0,0.02);
+}
+.tanchu .p .dot{
+    margin-top: 0.3rem;
+}
+.tanchu .p{
+    width: 100%;
+    height: 0.65rem;
+    display: flex;
+    font-size: 0.24rem;
+    color: #8a8c8d;
+    position: relative;
+}
+.tanchu .p span{
+    margin-left: 0.07rem;
+    line-height: 0.65rem;
+}
+.tanchu .p img{
+    display: block;
+    width: 0.23rem;
+    height: 0.23rem;
+    position: absolute;
+    top: 0.21rem;
+    right: 0;
+}
+.tanchu button {
+    font-size: 0.2rem;
+    color: white;
+    display: block;
+    width: 4.54rem;
+    height: 0.6rem;
+    background: linear-gradient(to right, #37df73, #32d794);
+    border-radius: 0.3rem;
+    margin: 0.8rem auto;
+    box-shadow: 0 0 0.2rem 0.02rem rgba(55, 223, 116, 0.43);
+}
+.icon-youjiantou{
+    margin-top: 0.02rem;
+}
+*{
+    font-weight: bold;
+}

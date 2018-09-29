@@ -249,6 +249,9 @@ textarea{
     padding: 0.25rem;
     border-radius: 0.08rem;
 }
+textarea::-webkit-input-placeholder{
+    color: #b9c9d2;
+}
 .tanchu{
     display: none;
     width: 100%;
@@ -313,4 +316,7 @@ textarea{
     border-radius: 0.3rem;
     margin: 0.8rem auto;
     box-shadow: 0 0 0.2rem 0.02rem rgba(55,223,116,0.43);
+}
+.icon-youjiantou{
+    margin-top: 0.02rem;
 }

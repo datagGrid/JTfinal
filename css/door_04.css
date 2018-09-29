@@ -1,6 +1,9 @@
 header{
     box-shadow: none;
 }
+i{
+    font-style: normal;
+}
 .top{
     width: 100%;
     height: 0.84rem;
@@ -8,18 +11,27 @@ header{
     justify-content: space-around;
     padding-top: 0.4rem;
     padding-bottom: .6rem;
+    position: relative;
+    z-index: 999;
+    background: white;
     box-shadow: 0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
 }
-.top p{
+.lo{
+    box-shadow: none;
+}
+.top .p123{
     font-size: 0.26rem;
     color: rgba(41,167,255,1);
+}
+.icon-ico_open{
+    font-size: 0.2rem;
+    margin-left: 0.05rem;
 }
 .dot{
     width: 0.05rem;
     height: 0.05rem;
     border-radius: 50%;
     background: #44b5ff;
-    /*margin-top: 0.6rem;*/
 }
 main{
     padding: 0 0.24rem;
@@ -112,4 +124,82 @@ main section .right .four i{
     margin-left: 0.05rem;
     font-size: 0.22rem;
     color: rgba(0,0,0,0.2);
+}
+.xial{
+    position: absolute;
+    left:0;
+    top: 1.78rem;
+    width: 100%;
+    height: 2.04rem;
+    background: white;
+    padding: 0 0.82rem;
+    z-index: 900;
+    box-shadow: 0 0 1000rem 1000rem rgba(58,59,65,0.85);
+    display: none;
+}
+.xial li{
+    height: 0.68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.6);
+    list-style: none;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.04);
+}
+.xial li:nth-child(3){
+    border-bottom: none;
+}
+.xia2{
+    position: absolute;
+    left:0;
+    top: 1.78rem;
+    width: 100%;
+    height: 2.04rem;
+    background: white;
+    padding: 0 0.82rem;
+    z-index: 900;
+    box-shadow: 0 0 1000rem 1000rem rgba(58,59,65,0.85);
+    display: none;
+}
+.xia2 li{
+    height: 0.68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.6);
+    list-style: none;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.04);
+}
+.xia2 li:nth-child(3){
+    border-bottom: none;
+}
+.xia3{
+    position: absolute;
+    left:0;
+    top: 1.78rem;
+    width: 100%;
+    height: 2.04rem;
+    background: white;
+    padding: 0 0.82rem;
+    z-index: 900;
+    box-shadow: 0 1rem 1000rem 1000rem rgba(58,59,65,0.85);
+    display: none;
+}
+.xia3 li{
+    height: 0.68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.6);
+    list-style: none;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.04);
+}
+.xia3 li:nth-child(3){
+    border-bottom: none;
+}
+.top .bo{
+    color: #36d681;
 }

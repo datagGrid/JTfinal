@@ -8,6 +8,9 @@ header{
     position: relative;
     box-shadow: 0 0.2rem 0.8rem 0.01rem rgba(41,167,255,0.13);
 }
+i{
+    font-style: normal;
+}
 input{
     width: 100%;
     height: 0.6rem;
@@ -128,6 +131,10 @@ input{
     line-height: 0.52rem;
     border-radius: 0.26rem;
     box-shadow: 0.02rem 0.02rem 0.12rem 0.01rem rgba(59,172,254,0.43);
+}
+.center .active{
+    background: #3bacfe;
+    color: #ffffff;
 }
 .blue{
     width: 100%;
@@ -264,4 +271,154 @@ input{
     font-style: normal;
     color: #d2d2d2;
     font-size: 0.2rem;
+}
+.middle{
+    width: 100%;
+    height: 1rem;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
+    display: flex;
+    justify-content: space-around;
+}
+.middle .one{
+    width: 1.45rem;
+    height: 0.93rem;
+
+    margin-left: 0.24rem;
+    text-align: center;
+    line-height: 0.93rem;
+    color: #3bacfe;
+}
+.middle .play{
+    border-bottom: 0.05rem solid #3bacfe;
+}
+.middle .one:nth-child(5){
+    margin-right: 0.24rem;
+}
+.pin{
+    width: calc(100% - 0.48rem);
+    height: 2.3rem;
+    /*background: red;*/
+    border-bottom: 0.01rem solid #f4f4f4;
+    margin: 0 auto;
+}
+.pin .pic{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    /*background: red;*/
+    margin-top: 0.3rem;
+}
+.pin .pic img{
+    display: block;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.pin p{
+    margin-left: 1.7rem;
+    margin-top: -1rem;
+}
+.pin span{
+    float: right;
+    margin-top: -0.35rem;
+    margin-right: 0.24rem;
+    color: #3bacfe;
+}
+.pin h3{
+    margin-left: 1.7rem;
+    font-size: 0.2rem;
+    margin-top: 0.2rem;
+}
+.pin h4{
+    margin-left: 1.7rem;
+    font-size: 0.2rem;
+    margin-top: 0.2rem;
+    color: #afb1b2;
+}
+.pin .diyi{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: right;
+    margin-right: 1rem;
+}
+.pin .dier{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: right;
+    margin-right: -1.3rem;
+}
+
+.pi{
+    width: calc(100% - 0.48rem);
+    height: 3.5rem;
+    /*background: red;*/
+    border-bottom: 0.01rem solid #f4f4f4;
+    margin: 0 auto;
+}
+.pi .pic{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    /*background: red;*/
+    margin-top: 0.3rem;
+}
+.pi .pic img{
+    display: block;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.pi p{
+    margin-left: 1.7rem;
+    margin-top: -1rem;
+}
+.pi span{
+    float: right;
+    margin-top: -0.35rem;
+    margin-right: 0.24rem;
+    color: #3bacfe;
+}
+.pi h3{
+    margin-left: 1.7rem;
+    font-size: 0.2rem;
+    margin-top: 0.2rem;
+}
+.pi h4{
+    margin-left: 1.7rem;
+    font-size: 0.2rem;
+    margin-top: 0.2rem;
+    color: #afb1b2;
+}
+.pi .diyi{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: right;
+    margin-right: 1rem;
+}
+.pi .dier{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: right;
+    margin-right: -1.3rem;
+}
+.pi .disan{
+    width: 1.8rem;
+    height: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 0.3rem;
+}
+.bigbox{
+    /*display: none;*/
+}
+.smallbox{
+    display: none;
+}
+.zhongbox{
+    display: none;
+}
+.chabox{
+    display: none;
+}
+.tubox{
+    display: none;
 }

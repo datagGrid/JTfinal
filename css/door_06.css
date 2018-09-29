@@ -88,7 +88,7 @@ h6{
     float: right;
     margin-right: -0.5rem;
 }
-i{
+.ics{
     font-style: normal;
     float: right;
     margin-top: 0.18rem;
@@ -176,7 +176,7 @@ i{
 }
 .last .xi{
     margin-left: 1.4rem;
-    margin-top: -0.63rem;
+    margin-top: -0.69rem;
     color: #36d681;
 }
 .last .jia{

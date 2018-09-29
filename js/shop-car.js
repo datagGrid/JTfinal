@@ -41,7 +41,7 @@ $(function(){
     let a=$(".num1");
     let b=$(".jia1");
     let c=$(".jian1");
-    let d=$(".he1");
+   
     jiajian(a,b,c);
      console.log(a,b,c);
     function jiajian(num,jia,jian){

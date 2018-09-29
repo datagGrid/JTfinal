@@ -1,0 +1,233 @@
+i{
+    font-style: normal;
+}
+/*头部开始*/
+header{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
+}
+header .left{
+    position: absolute;
+    left: 0.24rem;
+}
+header .iconfont{
+    font-size: 0.4rem;
+    color: #4ebbfe;
+}
+header .topleft{
+    float: left;
+}
+header .small{
+    float: left;
+    font-size: 0.22rem;
+}
+header .centertext{
+
+}
+header .topright{
+    position: absolute;
+    right: 0.24rem;
+}
+/*头部结束*/
+main{
+    padding: 0 0.24rem;
+}
+main .money{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.93rem;
+    padding-bottom: 0.66rem;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.04);
+    margin-bottom: 0.54rem;
+}
+.circle{
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #34da87;
+    border-radius:0.025rem;
+    box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(68,181,255,0.43);
+    margin-right: 0.1rem;
+}
+main .money .c2{
+    margin-left: 0.1rem;
+}
+main .money p{
+    font-size: 0.26rem;
+    color: #4f5b64;
+    font-weight: bold;
+}
+main .money span{
+    font-size: 0.4rem;
+    color: #32d796;
+    font-weight: bold;
+    margin: 0 0.12rem;
+}
+main ul li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.16rem;
+}
+main ul li .left{
+    display: flex;
+    align-items: center;
+}
+main ul li .left .pic img{
+    width: 1.42rem;
+    height: 1.42rem;
+}
+main ul li .left p{
+    font-size: 0.28rem;
+    color: #47505f;
+}
+main ul li .right{
+    display: flex;
+    align-items: center;
+}
+main ul li .right .price{
+    display: flex;
+    align-items: center;
+    opacity: 0;
+}
+main ul li .right .price p{
+    font-size: 0.26rem;
+    color: #4f5b64;
+    font-weight: bold;
+
+}
+main ul li .right span{
+    font-size: 0.4rem;
+    color: #ff7370;
+    font-weight: bold;
+    margin: 0 0.12rem;
+
+}
+main ul li .right .btn{
+    width: 0.25rem;
+    height: 0.25rem;
+    background: #dddddd;
+    border-radius: 50%;
+    margin-left: 0.3rem;
+}
+main ul li .right .active{
+    width: 0.25rem;
+    height: 0.25rem;
+    border: 0.08rem solid #36a8fe;
+    background: #fff;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+footer .btn{
+    width:4.54rem;
+    height: 0.6rem;
+    font-size: 0.2rem;
+    color: #fff;
+    line-height: 0.6rem;
+    text-align: center;
+    background: linear-gradient(to right,#37e06f,#32d69a);
+    box-shadow: 0  0.04rem  0.2rem 0.04rem rgba(55,223,116,0.75);
+    border-radius: 0.3rem;
+}
+/*弹框开始*/
+.tankuang{
+    width: 5.53rem;
+    height: 2.82rem;
+    border-radius: 0.1rem;
+    background: #fff;
+    box-shadow: 0 0 0.15rem 20rem rgba(35,35,42,0.89);
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left: 0;
+    margin: auto;
+    padding: 0 0.32rem;
+    display: none;
+
+}
+.tankuang .money{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.56rem;
+    padding-bottom: 0.26rem;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.04);
+    margin-bottom: 0.38rem;
+}
+.circle{
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #34da87;
+    border-radius:0.025rem;
+    box-shadow: 0 0.01rem 0.05rem 0.01rem rgba(68,181,255,0.43);
+    margin-right: 0.12rem;
+}
+.tankuang .money .c2{
+    margin-left: 0.12rem;
+}
+.tankuang .money p{
+    font-size: 0.3rem;
+    color: #4f5b64;
+    font-weight: bold;
+}
+.tankuang .money span{
+    font-size: 0.4rem;
+    color: #32d796;
+    font-weight: bold;
+    margin: 0 0.12rem;
+}
+.tankuang ul{
+    margin-top: 0.42rem;
+    margin-left: 0.52rem;
+    display: flex;
+}
+.tankuang ul li{
+    width:0.46rem;
+    height: 0.46rem;
+    border-radius: 50%;
+    background: #e3eef6;
+    margin-right: 0.26rem;
+}
+.tankuang ul .active{
+    background: #2fa5ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.04rem 0.05rem 0.03rem rgba(47,165,255,0.51)
+}
+.active .blue{
+    width: 0.22rem;
+    height: 0.22rem;
+    background:#1c8adf ;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active .white{
+    width: 0.1rem;
+    height: 0.1rem;
+    background:#fff ;
+    border-radius: 50%;
+
+}
+
+
+.icon-guanbi{
+    position: absolute;
+    top:0.17rem;
+    right:0.2rem;
+    font-size: 0.25rem;
+    color:#d1dde6;
+}
+/*弹框结束*/

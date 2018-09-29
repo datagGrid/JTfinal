@@ -88,3 +88,8 @@ section ul li .shouji{
     border-radius: 0.5rem;
     background: linear-gradient(to right,#37e06f,#32d699);
 }
+.ui:hover{
+    background: rgba(0, 0, 0, 0.15);
+    border-bottom: 0.01rem solid #4ebbfe;
+    color: #4ebbfe;
+}

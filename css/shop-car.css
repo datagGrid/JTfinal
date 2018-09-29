@@ -20,6 +20,7 @@ header .left{
 }
 header .iconfont{
     font-size: 0.4rem;
+    color: #4ebbfe;
 }
 header .topleft{
     float: left;
@@ -152,21 +153,38 @@ section ul .list3 a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: fixed;
+    top: 7.82rem;
 }
 .xuan span{
     margin-left: 0.32rem;
     font-size: 0.3rem;
     color: #3dc4ff;
 }
+.right{
+    width: 0.4rem;
+    height: 0.4rem;
+}
+/* .right.active{
+    background-image: url(../img/right.png);
+    background-position: center;
+    background-size: 100%;
+} */
 footer{
     width: 100%;
     height: 1.1rem;
     background: #f1faff;
     padding: 0 0.24rem;
-    display: flex;
+   position:fixed;
+   bottom: 0;
+   
+}
+footer .foot{
+     position: relative;
+      display: flex;
     flex-direction: row;
     align-items: center;
-    position: relative;
+    margin-top: 0.2rem;
 }
 footer .price{
     color:#84cbfe;
@@ -179,7 +197,7 @@ footer .price .price1{
 footer .price .price2{
     margin-right: 0.2rem;
 }
-footer>a{
+footer .foot>a{
     float: right;
     width: 3.4rem;
     height: 0.6rem;
@@ -189,6 +207,6 @@ footer>a{
     color: #fff;
     font-size: 0.26rem;
     position: absolute;
-    right: 0.24rem;
+    right: 0;
     border-radius: 0.2rem;
 }

@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/rem.css">
     <link rel="stylesheet" href="css/shop-car.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/shop-car.js"></script>
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div class="left">
-            <i class="topleft iconfont icon-fanhui"></i>
+        <div class="left"><a href="person.html">
+            <i class="topleft iconfont icon-fanhui"></i></a>
             <!--基本都没有-->
             <!-- <span class="small">关闭</span> -->
         </div>
@@ -25,25 +27,26 @@
      </header>
 
      <section>
-        <ul >
+        <ul class="ul" >
             <li class="list1">
-                <img src="img/xuan.png" alt="">
+                <img src="img/xuan.png" imgsrc="img/right.png" class="right" alt="">
+                <!-- <img src="img/right.png" alt=""> -->
                 <span>宅快修 <i class="iconfont icon-youjiantou"></i></span>
                 <img class="del" src="img/delete.png" alt="">
             </li>
             <li class="list2">
-                <img src="img/xuan.png" alt="">
+                <img src="img/xuan.png" imgsrc="img/right.png" class="right" alt="">
                 <img class="goods" src="img/longtou.png" alt="">
                 <div class="li-box">
                     <span>
                         潜水艇高端龙头
                         <div class="jiajian">
-                            <img class="jian" src="img/jian.png" alt="">
-                            <span>01</span>
-                            <img class="jia" src="img/jia.png" alt="">
+                            <img class="jian jian1" src="img/jian.png" alt="">
+                            <span class="num1">01</span>
+                            <img class="jia jia1" src="img/jia.png" alt="">
                         </div>
                     </span>
-                    <p>￥<span>60</span></p>
+                    <p>￥<span class="he1">60</span></p>
                 </div>
             </li>
             <li class="list3">
@@ -54,22 +57,22 @@
                 <a class="apply" href="">去下单</a>
             </li>
         </ul>
-        <ul >
+        <ul class="ul" >
             <li class="list1">
-                <img src="img/xuan.png" alt="">
+                <img src="img/xuan.png" imgsrc="img/right.png" class="right" alt="">
                 <span>宅快修 <i class="iconfont icon-youjiantou"></i></span>
                 <img class="del" src="img/delete.png" alt="">
             </li>
             <li class="list2">
-                <img src="img/xuan.png" alt="">
+                <img src="img/xuan.png" imgsrc="img/right.png" class="right" alt="">
                 <img class="goods" src="img/longtou.png" alt="">
                 <div class="li-box">
                     <span>
                         潜水艇高端龙头
                         <div class="jiajian">
-                            <img class="jian" src="img/jian.png" alt="">
-                            <span>01</span>
-                            <img class="jia" src="img/jia.png" alt="">
+                            <img class="jian jian2" src="img/jian.png" alt="">
+                            <span class="num2">01</span>
+                            <img class="jia jia2" src="img/jia.png" alt="">
                         </div>
                     </span>
                     <p>￥<span>60</span></p>
@@ -84,16 +87,17 @@
             </li>
         </ul>
         <div class="xuan">
-            <img src="img/xuan.png" alt="">
+            <img src="img/xuan.png" imgsrc="img/right.png" class="right" alt="">
             <span>全选</span>
         </div>
      </section>
      <footer>
+         <div class="foot">
          <div class="price">
             <p>
                 <img src="img/yuan.png" alt="">
                 合计：<a class="price1" href="">￥
-                <span >162</span></a>
+                <span  class="Price">162</span></a>
             </p>
             <p>
                 <img src="img/yuan.png" alt=""> 
@@ -101,7 +105,7 @@
                 已优惠￥<span>20</span>
             </p>
          </div>
-         <a  href="">结算</a>
+         <a  href="">结算</a></div>
      </footer>
 </body>
 </html>

@@ -7,16 +7,17 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_853283_eu3jlo8sfuk.css">
-    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/basic-1.css">
     <link rel="stylesheet" href="css/rem.css">
     <link rel="stylesheet" href="css/person.css">
     <script src="js/jquery.js"></script>
+    <script src="js/person.js"></script>
     <title>Document</title>
 </head>
 <body>
     <header>
         <div class="left">
-            <i class="topleft iconfont icon-fanhui"></i>
+            <!-- <i class="topleft iconfont icon-fanhui"></i> -->
             <!--基本都没有-->
             <!-- <span class="small">关闭</span> -->
         </div>
@@ -24,6 +25,7 @@
         <!--基本也都没有-->
         <!-- <i class="topright iconfont icon-gengduo"></i> -->
      </header>
+     
      <div class="person">
         <div class="empty"></div> 
          <div class="bit"></div>
@@ -44,7 +46,7 @@
 
          </div>
          <div class="money">
-            <div class="money-yue"><a href="">
+            <div class="money-yue"><a href="backpack.html">
                 <h5 class="yue">260</h5>
                 <span>余额</span></a>
             </div>
@@ -62,86 +64,94 @@
          <ul>
              <li>
                  <img src="img/yuanjia.png" alt="">
-                 <a href="">钱包</a>
+                 <a href="backpack.html"> <b class="align">钱包</b>  </a>
              </li>
              <li>
                 <img src="img/yuanjia.png" alt="">
-                <a href="shop-car-kong.html">购物车</a>
+                <a href="shop-car.html">   <b class="align">购物车</b>   </a>
              </li>
              <li>
                 <img src="img/yuanjia.png" alt="">
-                <a href="">备用地址</a>
+                <a href="address.html"> <b class="align">常用地址</b> </a>
              </li>
              <li>
                 <img src="img/yuanjia.png" alt="">
-                <a href="">客服中心</a>
+                <a href="chatcenter.html"> <b class="align">客服中心</b> </a>
              </li>
              <li>
                 <img src="img/yuanjia.png" alt="">
-                <a href="person-help.html">帮助</a>
+                <a href="person-help.html"> <b class="align">帮助</b> </a>
              </li>
              <li>
                 <img src="img/yuanjia.png" alt="">
-                <a href="person-guanyuwomen.html">关于我们</a>
+                <a href="person-guanyuwomen.html"> <b class="align">关于我们</b> </a>
              </li>
              <li>
                 <img src="img/yuanjia.png" alt="">
-                <a href="">监督热线</a>
+                <a href=""> <b class="align">监督热线</b> </a>
                 <span>400-789-2211</span>
              </li>
          </ul>
      </section>
      
-	<footer>
-                <ul>
-                    <li>
-                        <a href="index.html">
-                            <i class="iconfont icon-xingzhuanggongnengtubiao-"></i>
-                            <h2>首页</h2>
-                        </a>
-                        
-                    </li>
-                    <li>
-                        <a href="javascript:;">
-                            <i class="iconfont icon-gouwudai"></i>
-                            <h2>商城</h2>
-                        </a>
-                        
-                    </li>
-                    <li>
-                        <a href="javascript:;" >
-                            <i class="iconfont icon-wei-"></i>
-                            <h2>入驻</h2>
-                        </a>
-                        
-                    </li>
-                    <li>
-                        <a href="javascript:;">
-                            <i class="iconfont icon-dingdan"></i>	
-                            <h2>订单</h2>
-                        </a>
-                        
-                    </li>
-                    <li>
-                        <a href="person.html" class="active">
-                            <i class="iconfont icon-sousuo1"></i>
-                            <h2>我的</h2>
-                        </a>
-                        
-                    </li>
-                </ul>
+     <footer>
+        <ul>
+            <li>
+                <a href="index.html" >
+                    <i class="iconfont icon-xingzhuanggongnengtubiao-"></i>
+                    <h2>首页</h2>
+                </a>
+                
+            </li>
+            <li>
+                <a href="shop.html">
+                    <i class="iconfont icon-gouwudai"></i>
+                    <h2>商城</h2>
+                </a>
+                
+            </li>
+            <li>
+                <a href="javascript:;" class="room">
+                    <i class="iconfont icon-wei-"></i>
+                    <h2>入驻</h2>
+                </a>
+                
+            </li>
+            <li>
+                <a href="order.html">
+                    <i class="iconfont icon-dingdan"></i>	
+                    <h2>订单</h2>
+                </a>
+                
+            </li>
+            <li>
+                <a href="person.html" class="active">
+                    <i class="iconfont icon-sousuo1"></i>
+                    <h2>我的</h2>
+                </a>
+                
+            </li>
+        </ul>
     </footer>
-    <script>
-      let ab=document.querySelectorAll("footer ul li a");
-      console.log(ab);
-      for(let i=0;i<ab.length;i++){
-      ab[i].onclick=function(){
-          for(let j=0;j<ab.length;j++){
-              ab[j].classList.remove("active");
-          }
-          ab[i].classList.add("active");
-      }
-    }
-    </script>
+    <div class="shade">
+        <div class="wrap">
+            <div class="icon1">
+            <img src="img/组1拷贝.png" alt="" />
+            <h3>商家入驻</h3>
+            </div>
+            <div class="icon2">
+                <img src="img/组3.png" alt="" />
+                <h3>水司入驻</h3>
+            </div>
+            <div class="clearfix">
+                
+            </div>
+            <div class="closebtn">
+                X
+            </div>
+        </div>
+        
+    </div>
+	
 </body>
 </html>

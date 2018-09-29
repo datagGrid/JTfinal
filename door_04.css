@@ -1,0 +1,205 @@
+header{
+    box-shadow: none;
+}
+i{
+    font-style: normal;
+}
+.top{
+    width: 100%;
+    height: 0.84rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.4rem;
+    padding-bottom: .6rem;
+    position: relative;
+    z-index: 999;
+    background: white;
+    box-shadow: 0 0 0.8rem 0.01rem rgba(41,167,255,0.13);
+}
+.lo{
+    box-shadow: none;
+}
+.top .p123{
+    font-size: 0.26rem;
+    color: rgba(41,167,255,1);
+}
+.icon-ico_open{
+    font-size: 0.2rem;
+    margin-left: 0.05rem;
+}
+.dot{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #44b5ff;
+}
+main{
+    padding: 0 0.24rem;
+}
+main section{
+    margin-top: 0.7rem;
+    overflow: hidden;
+    position: relative;
+}
+main section .yuan{
+    font-size: 0.26rem;
+    color: #fbb548;
+    position: absolute;
+    bottom: 0;
+    right: 0.2rem;
+}
+main section .left{
+    margin: 0.1rem;
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 0.1rem;
+    background: white;
+    float: left;
+    box-shadow: 0 0 0.1rem 0.01rem rgba(0,0,0,0.13);
+    padding: 0.2rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+main section .right{
+    width: calc(100%-1.74rem);
+    height: 1.74rem;
+    border-radius: 0.1rem;
+    background: white;
+    float: left;
+    padding-left: 0.25rem;
+}
+main section .right .one{
+    display: flex;
+}
+main section .right .one .dot{
+    margin-top: 0.2rem;
+}
+main section .right .one span{
+    font-size: 0.3rem;
+    margin-left: 0.09rem;
+}
+main section .right .two{
+    margin-top: 0.1rem;
+}
+main section .right .two .dot{
+    margin-top: 0.12rem;
+}
+main section .right .two p{
+    margin-left: 0.1rem;
+}
+main section .right .two i{
+    margin-left: 0.15rem;
+}
+main section .right .two .second{
+    margin-left: 0.5rem;
+}
+main section .right .three{
+    margin-top: 0.1rem;
+}
+main section .right .three .nice{
+    width: 1.21rem;
+    height: 0.35rem;
+    border-radius: 0.175rem;
+    background: rgba(59,171,255,0.1);
+    font-size: 0.2rem;
+    color: #36a8fe;
+    text-align: center;
+    line-height: 0.35rem;
+}
+main section .right .three .very{
+    margin-left: 0.06rem;
+}
+main section .right .four{
+    margin-top: 0.2rem;
+
+}
+main section .right .four span{
+    margin-left: 0.1rem;
+    color: rgba(0,0,0,0.3);
+    font-size: 0.22rem
+}
+main section .right .four i{
+    margin-left: 0.05rem;
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.2);
+}
+.xial{
+    position: absolute;
+    left:0;
+    top: 1.78rem;
+    width: 100%;
+    height: 2.04rem;
+    background: white;
+    padding: 0 0.82rem;
+    z-index: 900;
+    box-shadow: 0 0 1000rem 1000rem rgba(58,59,65,0.85);
+    display: none;
+}
+.xial li{
+    height: 0.68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.6);
+    list-style: none;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.04);
+}
+.xial li:nth-child(3){
+    border-bottom: none;
+}
+.xia2{
+    position: absolute;
+    left:0;
+    top: 1.78rem;
+    width: 100%;
+    height: 2.04rem;
+    background: white;
+    padding: 0 0.82rem;
+    z-index: 900;
+    box-shadow: 0 0 1000rem 1000rem rgba(58,59,65,0.85);
+    display: none;
+}
+.xia2 li{
+    height: 0.68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.6);
+    list-style: none;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.04);
+}
+.xia2 li:nth-child(3){
+    border-bottom: none;
+}
+.xia3{
+    position: absolute;
+    left:0;
+    top: 1.78rem;
+    width: 100%;
+    height: 2.04rem;
+    background: white;
+    padding: 0 0.82rem;
+    z-index: 900;
+    box-shadow: 0 1rem 1000rem 1000rem rgba(58,59,65,0.85);
+    display: none;
+}
+.xia3 li{
+    height: 0.68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.6);
+    list-style: none;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.04);
+}
+.xia3 li:nth-child(3){
+    border-bottom: none;
+}
+.top .bo{
+    color: #36d681;
+}

@@ -16,7 +16,7 @@ window.onload=function () {
             if(number.value!==""){
                 if(user.value!=="" && number.value!==""){
                     alert("登录成功");
-                    window.open("index.html",'_self');
+                    window.open("p_ay.html",'_self');
                     $(".one").css("background","#3bacfe");
                     $(".one").css("box-shadow","0 0 0.8rem 0.01rem rgba(41,167,255,0.13)");
                     $(".one p").css("color","white");

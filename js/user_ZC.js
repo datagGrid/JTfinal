@@ -16,7 +16,7 @@ window.onload=function () {
                     if(yu.value!==""){
                         if(tel.value==yu.value){
                             if(name.value!=="" && address.value!=="" && tel.value!=="" && yu.value!==""){
-                                alert("登录成功");
+                                alert("注册成功");
                                 window.open("XinXi.html",'_self');
                                 $(".tj").css("background","#3bacfe");
                                 $(".tj").css("box-shadow","0 0 0.8rem 0.01rem rgba(41,167,255,0.13)");
